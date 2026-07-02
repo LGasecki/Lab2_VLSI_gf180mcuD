@@ -1,0 +1,25 @@
+** sch_path: /foss/designs/lab_2/lab2.sch
+**.subckt lab2
+M1 net2 net1 VDD VDD pmos w=WDAC l=LDAC
+M2 net1 net1 VDD VDD pmos w=W_DAC l=L_DAC
+I0 net1 0 I_DAC
+E1 net2 0 net1 0 1.0
+V1 VDD 0 VDD
+**** begin user architecture code
+
+.include $PDK_ROOT/gf180mcuD/libs.tech/ngspice/design.ngspice tt
+
+
+.param W_DAC=10u L_DAC=1u I_DAC=10u
+
+
+.control
+  save all
+  op
+  write lab2.raw
+  show all
+.endc
+
+**** end user architecture code
+**.ends
+.end
