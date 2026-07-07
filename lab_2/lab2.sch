@@ -27,13 +27,13 @@ N 40 -200 40 -180 {lab=VDD}
 N 40 -120 40 -100 {lab=0}
 N 180 -300 240 -300 {lab=#net1}
 N 140 -200 240 -200 {lab=#net1}
-N 120 -300 140 -300 {lab=VDD}
 N 400 -300 420 -300 {lab=VDD}
+N 120 -300 140 -300 {lab=VDD}
 C {lab_wire.sym} 300 -360 0 0 {name=p1 sig_type=std_logic lab=VDD
 
 
 }
-C {isource.sym} 140 -150 0 0 {name=I0 value=I_DAC}
+C {isource.sym} 140 -150 0 0 {name=I0 value=\{I_DAC\}}
 C {gnd.sym} 140 -100 0 0 {name=l1 lab=0}
 C {vcvs.sym} 400 -180 0 0 {name=E1 value=1.0}
 C {gnd.sym} 400 -100 0 0 {name=l2 lab=0}
@@ -41,20 +41,20 @@ C {vsource.sym} 40 -150 0 0 {name=V1 value=3.3 savecurrent=false}
 C {gnd.sym} 40 -100 0 0 {name=l3 lab=0}
 C {lab_wire.sym} 40 -190 0 0 {name=p2 sig_type=std_logic lab=VDD}
 C {code_shown.sym} 550 -480 0 0 {name=LIB_SETUP only_toplevel=false value="
-
-.param sw_stat_mismatch=1
-.param sw_stat_global=0
-
 .include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
 .lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
 .lib /foss/pdks/gf180mcuD/libs.tech/ngspice/smbb000149.ngspice typical
 "}
-C {code_shown.sym} 550 -270 0 0 {name=parameters only_toplevel=false
-value=".param W_DAC=220n L_DAC=280n I_DAC=100n mc_mm_switch=1 mc_pr_switch=0
+C {code_shown.sym} 550 -360 0 0 {name=parameters only_toplevel=false
+value=".param sw_stat_global=1
+.param sw_stat_mismatch=1
+.param W_DAC=220n
+.param L_DAC=280n
+.param I_DAC=100n
 "}
 C {symbols/pfet_03v3.sym} 380 -300 0 0 {name=M1
-L=L_DAC
-W=W_DAC
+L=\{L_DAC\}
+W=\{W_DAC\}
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -67,8 +67,8 @@ model=pfet_03v3
 spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} 160 -300 0 1 {name=M2
-L=L_DAC
-W=W_DAC
+L= \{L_DAC\}
+W= \{W_DAC\}
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -80,7 +80,25 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {code_shown.sym} 550 -160 0 0 {name=MC only_toplevel=false
-value=".OK
+C {code_shown.sym} 550 -230 0 0 {name=MC only_toplevel=false
+value=".control
+  let runs = 100
+  let run = 1
+  let idac_vec = vector(runs)
 
+  dowhile run <= runs
+    reset
+    op
+    let idac_vec[run-1] = @e1[i]
+    let run = run + 1
+  end
+
+  let mean_idac = mean(idac_vec)
+  let stddev_idac = sqrt(mean((idac_vec - mean_idac) * (idac_vec - mean_idac)))
+  let sigma_avg = (stddev_idac / mean_idac) * 100
+
+  print mean_idac
+  print stddev_idac
+  print sigma_avg
+.endc"
 }
