@@ -1,0 +1,26 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+spectre_format="@name ( @pinlist ) @symname"
+template="name=x1"
+}
+V {}
+S {}
+F {}
+E {}
+L 4 -60 -20 -40 -20 {}
+L 4 60 20 80 20 {}
+L 7 60 -20 80 -20 {}
+L 7 60 0 80 0 {}
+B 5 77.5 -22.5 82.5 -17.5 {name=DAC_REF dir=inout}
+B 5 77.5 -2.5 82.5 2.5 {name=VDD dir=inout}
+B 5 -62.5 -22.5 -57.5 -17.5 {name=b[0:4] dir=in}
+B 5 77.5 17.5 82.5 22.5 {name=I_DAC dir=out}
+P 4 5 60 -30 -40 -30 -40 30 60 30 60 -30 {}
+T {@symname} -26.5 -56 0 0 0.3 0.3 {}
+T {@name} 25 -42 0 0 0.2 0.2 {}
+T {DAC_REF} 55 -24 0 1 0.2 0.2 {}
+T {VDD} 55 -4 0 1 0.2 0.2 {}
+T {b[0:4]} -35 -24 0 0 0.2 0.2 {}
+T {I_DAC} 55 16 0 1 0.2 0.2 {}
