@@ -64,65 +64,9 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 380 -80 0 0 {name=MK2
+C {symbols/pfet_03v3.sym} 380 -80 0 0 {name=MK2[0:1]
 L=0.28u
 W=0.78u
-nf=1
-m=2
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=pfet_03v3
-spiceprefix=X
-}
-C {symbols/pfet_03v3.sym} 620 -80 0 0 {name=MK3
-L=0.28u
-W=0.78u
-nf=1
-m=4
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=pfet_03v3
-spiceprefix=X
-}
-C {symbols/pfet_03v3.sym} 860 -80 0 0 {name=MK4
-L=0.28u
-W=0.78u
-nf=1
-m=8
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=pfet_03v3
-spiceprefix=X
-}
-C {symbols/pfet_03v3.sym} 1100 -80 0 0 {name=MK5
-L=0.28u
-W=0.78u
-nf=1
-m=16
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=pfet_03v3
-spiceprefix=X
-}
-C {symbols/pfet_03v3.sym} 140 -260 0 0 {name=M1
-L=2u
-W=5u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -134,11 +78,11 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 380 -260 0 0 {name=M2
-L=2u
-W=5u
+C {symbols/pfet_03v3.sym} 620 -80 0 0 {name=MK3[0:3]
+L=0.28u
+W=0.78u
 nf=1
-m=2
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -148,11 +92,11 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 620 -260 0 0 {name=M3
-L=2u
-W=5u
+C {symbols/pfet_03v3.sym} 860 -80 0 0 {name=MK4[0:7]
+L=0.28u
+W=0.78u
 nf=1
-m=4
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -162,11 +106,11 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 860 -260 0 0 {name=M4
-L=2u
-W=5u
+C {symbols/pfet_03v3.sym} 1100 -80 0 0 {name=MK5[0:15]
+L=0.28u
+W=0.78u
 nf=1
-m=8
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -176,11 +120,67 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 1100 -260 0 0 {name=M5
-L=2u
-W=5u
+C {symbols/pfet_03v3.sym} 140 -260 0 0 {name=M1
+L=5u
+W=2u
 nf=1
-m=16
+m=1
+ad="'int((nf+1)/2) * W/nf * 0.18u'"
+pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
+as="'int((nf+2)/2) * W/nf * 0.18u'"
+ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
+nrd="'0.18u / W'" nrs="'0.18u / W'"
+sa=0 sb=0 sd=0
+model=pfet_03v3
+spiceprefix=X
+}
+C {symbols/pfet_03v3.sym} 380 -260 0 0 {name=M2[0:1]
+L=5u
+W=2u
+nf=1
+m=1
+ad="'int((nf+1)/2) * W/nf * 0.18u'"
+pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
+as="'int((nf+2)/2) * W/nf * 0.18u'"
+ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
+nrd="'0.18u / W'" nrs="'0.18u / W'"
+sa=0 sb=0 sd=0
+model=pfet_03v3
+spiceprefix=X
+}
+C {symbols/pfet_03v3.sym} 620 -260 0 0 {name=M3[0:3]
+L=5u
+W=2u
+nf=1
+m=1
+ad="'int((nf+1)/2) * W/nf * 0.18u'"
+pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
+as="'int((nf+2)/2) * W/nf * 0.18u'"
+ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
+nrd="'0.18u / W'" nrs="'0.18u / W'"
+sa=0 sb=0 sd=0
+model=pfet_03v3
+spiceprefix=X
+}
+C {symbols/pfet_03v3.sym} 860 -260 0 0 {name=M4[0:7]
+L=5u
+W=2u
+nf=1
+m=1
+ad="'int((nf+1)/2) * W/nf * 0.18u'"
+pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
+as="'int((nf+2)/2) * W/nf * 0.18u'"
+ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
+nrd="'0.18u / W'" nrs="'0.18u / W'"
+sa=0 sb=0 sd=0
+model=pfet_03v3
+spiceprefix=X
+}
+C {symbols/pfet_03v3.sym} 1100 -260 0 0 {name=M5[0:15]
+L=5u
+W=2u
+nf=1
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -193,21 +193,22 @@ spiceprefix=X
 C {opin.sym} 1160 -20 0 0 {name=p2 lab=I_DAC}
 C {iopin.sym} 190 -380 0 0 {name=p3 lab=VDD}
 C {iopin.sym} 190 -400 0 0 {name=p4 lab=DAC_REF}
-C {ipin.sym} 210 -360 0 0 {name=p5 lab=b[0:4]}
-C {lab_wire.sym} 80 -260 0 0 {name=p6 sig_type=std_logic lab=DAC_REF}
-C {lab_wire.sym} 320 -80 0 0 {name=p7 sig_type=std_logic lab=b[1]}
-C {lab_wire.sym} 560 -80 0 0 {name=p8 sig_type=std_logic lab=b[2]}
-C {lab_wire.sym} 800 -80 0 0 {name=p9 sig_type=std_logic lab=b[3]}
-C {lab_wire.sym} 80 -80 0 0 {name=p10 sig_type=std_logic lab=b[0]}
-C {lab_wire.sym} 1040 -80 0 0 {name=p11 sig_type=std_logic lab=b[4]}
-C {lab_wire.sym} 320 -260 0 0 {name=p12 sig_type=std_logic lab=DAC_REF}
-C {lab_wire.sym} 560 -260 0 0 {name=p13 sig_type=std_logic lab=DAC_REF}
-C {lab_wire.sym} 800 -260 0 0 {name=p14 sig_type=std_logic lab=DAC_REF}
-C {lab_wire.sym} 1040 -260 0 0 {name=p15 sig_type=std_logic lab=DAC_REF}
-C {lab_wire.sym} 580 -320 0 0 {name=p16 sig_type=std_logic lab=VDD}
-C {devices/code_shown.sym} 400 -420 0 0 {name=MODELS only_toplevel=true
-format="tcleval( @value )"
-value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
-"}
+C {ipin.sym} 190 -350 0 0 {name=p5 lab=b[0:4]}
+C {lab_pin.sym} 80 -260 0 0 {name=p6 sig_type=std_logic lab=DAC_REF}
+C {lab_pin.sym} 320 -80 0 0 {name=p7 sig_type=std_logic lab=b[1]}
+C {lab_pin.sym} 560 -80 0 0 {name=p8 sig_type=std_logic lab=b[2]
+}
+C {lab_pin.sym} 800 -80 0 0 {name=p9 sig_type=std_logic lab=b[3]
+}
+C {lab_pin.sym} 80 -80 0 0 {name=p10 sig_type=std_logic lab=b[0]}
+C {lab_pin.sym} 1040 -80 0 0 {name=p11 sig_type=std_logic lab=b[4]
+}
+C {lab_pin.sym} 320 -260 0 0 {name=p12 sig_type=std_logic lab=DAC_REF
+}
+C {lab_pin.sym} 560 -260 0 0 {name=p13 sig_type=std_logic lab=DAC_REF
+}
+C {lab_pin.sym} 800 -260 0 0 {name=p14 sig_type=std_logic lab=DAC_REF
+}
+C {lab_pin.sym} 1040 -260 0 0 {name=p15 sig_type=std_logic lab=DAC_REF
+}
+C {lab_wire.sym} 570 -320 0 0 {name=p16 sig_type=std_logic lab=VDD}

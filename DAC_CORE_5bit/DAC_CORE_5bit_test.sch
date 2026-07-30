@@ -8,7 +8,6 @@ E {}
 N 290 -390 290 -350 {lab=VDD}
 N 290 -390 710 -390 {lab=VDD}
 N 530 -350 570 -350 {lab=b[0:4]}
-N 530 -310 570 -310 {lab=DAC_REF}
 N 330 -320 350 -320 {lab=DAC_REF}
 N 400 -320 400 -260 {lab=DAC_REF}
 N 290 -260 350 -260 {lab=DAC_REF}
@@ -36,10 +35,10 @@ N 820 -80 820 -30 {lab=VDD}
 N 250 -320 290 -320 {lab=VDD}
 N 250 -390 250 -320 {lab=VDD}
 N 250 -390 290 -390 {lab=VDD}
-C {DAC_CORE_5bit.sym} 630 -330 0 0 {name=x1}
-C {symbols/pfet_03v3.sym} 310 -320 0 1 {name=M1
-L=2u
-W=5u
+N 530 -310 570 -310 {lab=DAC_REF}
+C {symbols/pfet_03v3.sym} 310 -320 0 1 {name=MREF
+L= 5u
+W= 2u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -50,6 +49,7 @@ nrd="'0.18u / W'" nrs="'0.18u / W'"
 sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
+
 }
 C {res.sym} 290 -210 0 0 {name=RES_DAC
 value=\{RES_DAC\}
@@ -63,52 +63,77 @@ footprint=1206
 device=resistor
 m=1}
 C {gnd.sym} 710 -150 0 0 {name=l2 lab=gnd}
-C {vsource.sym} 310 -80 1 0 {name=V0 value="\{VDD*((dac_bit-2*int(dac_bit/2)))\}" savecurrent=false}
-C {lab_wire.sym} 400 -320 0 0 {name=p1 sig_type=std_logic lab=DAC_REF
+C {vsource.sym} 310 -80 1 0 {name=V0 value="\{VDD*((dac_bit-2*floor(dac_bit/2)))\}" savecurrent=false}
+C {lab_pin.sym} 400 -320 0 0 {name=p1 sig_type=std_logic lab=DAC_REF
 }
-C {lab_wire.sym} 550 -310 0 0 {name=p2 sig_type=std_logic lab=DAC_REF
+C {lab_pin.sym} 530 -310 0 0 {name=p2 sig_type=std_logic lab=DAC_REF
 }
-C {lab_wire.sym} 550 -350 0 0 {name=p3 sig_type=std_logic lab=b[0:4]
+C {lab_pin.sym} 530 -350 0 0 {name=p3 sig_type=std_logic lab=b[0:4]
 }
-C {lab_wire.sym} 260 -80 0 0 {name=p4 sig_type=std_logic lab=b[0]
+C {lab_pin.sym} 230 -80 0 0 {name=p4 sig_type=std_logic lab=b[0]
 }
 C {vsource.sym} 160 -210 0 0 {name=VSUPPLY value=\{VDD\} savecurrent=false}
-C {lab_wire.sym} 420 -390 0 0 {name=p5 sig_type=std_logic lab=VDD
+C {lab_pin.sym} 420 -390 0 0 {name=p5 sig_type=std_logic lab=VDD
 }
-C {lab_wire.sym} 160 -290 0 0 {name=p6 sig_type=std_logic lab=VDD
+C {lab_pin.sym} 160 -290 0 0 {name=p6 sig_type=std_logic lab=VDD
 }
 C {gnd.sym} 160 -150 0 0 {name=l3 lab=gnd}
-C {vsource.sym} 470 -80 1 0 {name=V1 value="\{VDD*((dac_bit-4*int(dac_bit/4)>1))\}" savecurrent=false}
-C {lab_wire.sym} 420 -80 0 0 {name=p7 sig_type=std_logic lab=b[1]
+C {vsource.sym} 470 -80 1 0 {name=V1 value="\{VDD*((dac_bit-4*floor(dac_bit/4)>1))\}" savecurrent=false}
+C {lab_pin.sym} 390 -80 0 0 {name=p7 sig_type=std_logic lab=b[1]
 }
-C {vsource.sym} 630 -80 1 0 {name=V2 value="\{VDD*((dac_bit-8*int(dac_bit/8)>3))\}" savecurrent=false}
-C {lab_wire.sym} 580 -80 0 0 {name=p8 sig_type=std_logic lab=b[2]
+C {vsource.sym} 630 -80 1 0 {name=V2 value="\{VDD*((dac_bit-8*floor(dac_bit/8)>3))\}" savecurrent=false}
+C {lab_pin.sym} 550 -80 0 0 {name=p8 sig_type=std_logic lab=b[2]
 }
-C {vsource.sym} 790 -80 1 0 {name=V3 value="\{VDD*((dac_bit-16*int(dac_bit/16)>7))\}" savecurrent=false}
-C {lab_wire.sym} 740 -80 0 0 {name=p9 sig_type=std_logic lab=b[3]
+C {vsource.sym} 790 -80 1 0 {name=V3 value="\{VDD*((dac_bit-16*floor(dac_bit/16)>7))\}" savecurrent=false}
+C {lab_pin.sym} 710 -80 0 0 {name=p9 sig_type=std_logic lab=b[3]
 }
-C {vsource.sym} 950 -80 1 0 {name=V4 value="\{VDD*((dac_bit-32*int(dac_bit/32)>15))\}" savecurrent=false}
-C {lab_wire.sym} 900 -80 0 0 {name=p10 sig_type=std_logic lab=b[4]
+C {vsource.sym} 950 -80 1 0 {name=V4 value="\{VDD*((dac_bit-32*floor(dac_bit/32)>15))\}" savecurrent=false}
+C {lab_pin.sym} 870 -80 0 0 {name=p10 sig_type=std_logic lab=b[4]
 }
 C {lab_wire.sym} 710 -30 0 0 {name=p11 sig_type=std_logic lab=VDD
 }
-C {code_shown.sym} 850 -520 0 0 {name=code only_toplevel=false value="
+C {lab_pin.sym} 710 -280 0 0 {name=p12 sig_type=std_logic lab=I_DAC
+}
+C {devices/code_shown.sym} 820 -470 0 0 {name=LIB_SETUP only_toplevel=false value="
+.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice statistical
+"}
+C {DAC_CORE_5bit/DAC_CORE_5bit.sym} 630 -330 0 0 {name=x1}
+C {devices/code_shown.sym} 1060 -370 0 0 {name=Code only_toplevel=false value="
+.param sw_stat_global=0
+.param sw_stat_mismatch=1
+
 .param VDD=3.3
-.param RES_DAC=198k
-.param dac_bit=7
+.param RES_DAC=106k
+.param dac_bit=31
 
 .control
-  save all
-  op
-  print @m.xm1.m0[id]
-  print @m.x1.i_dac
+    let mc_runs = 100
+    let i_out_vec = vector(mc_runs)
+    let iter = 1
+
+    dowhile iter <= mc_runs
+	reset
+        op
+        
+        let i_out_vec[iter-1] = V(I_DAC) / 100
+        let iter = iter + 1
+    end
+    
+    let avg_i = mean(i_out_vec)
+    let i_dac_max = vecmax(i_out_vec)
+    let i_dac_min = vecmin(i_out_vec)
+    
+    let diff = i_out_vec - avg_i
+    let diff_sq = diff * diff
+    let std_i = sqrt(mean(diff_sq))
+    
+    let sigma_avg = std_i / avg_i
+    
+    print avg_i
+    print i_dac_max
+    print i_dac_min
+    print std_i
+    print sigma_avg
 .endc
 "}
-C {devices/code_shown.sym} 260 -490 0 0 {name=MODELS only_toplevel=true
-format="tcleval( @value )"
-value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
-"}
-C {lab_wire.sym} 710 -280 0 0 {name=p12 sig_type=std_logic lab=I_DAC
-}
