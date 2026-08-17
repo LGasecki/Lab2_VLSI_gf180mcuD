@@ -96,7 +96,7 @@ C {lab_pin.sym} 710 -280 0 0 {name=p12 sig_type=std_logic lab=I_DAC
 }
 C {devices/code_shown.sym} 820 -470 0 0 {name=LIB_SETUP only_toplevel=false value="
 .include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
-.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice statistical
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
 "}
 C {DAC_CORE_5bit/DAC_CORE_5bit.sym} 630 -330 0 0 {name=x1}
 C {devices/code_shown.sym} 1060 -370 0 0 {name=Code only_toplevel=false value="
@@ -106,33 +106,27 @@ C {devices/code_shown.sym} 1060 -370 0 0 {name=Code only_toplevel=false value="
 .param VDD=3.3
 .param RES_DAC=106k
 .param dac_bit=31
-
 .control
-    let mc_runs = 100
-    let i_out_vec = vector(mc_runs)
-    let iter = 1
 
-    dowhile iter <= mc_runs
-	reset
+    let runs = 100
+    let i_out_vec = vector(runs)
+    let run = 1
+
+    dowhile run <= runs
+        reset
         op
         
-        let i_out_vec[iter-1] = V(I_DAC) / 100
-        let iter = iter + 1
+        let i_out_vec[run-1] = @res_out[i]
+        let run = run + 1
     end
-    
+
     let avg_i = mean(i_out_vec)
-    let i_dac_max = vecmax(i_out_vec)
-    let i_dac_min = vecmin(i_out_vec)
-    
     let diff = i_out_vec - avg_i
     let diff_sq = diff * diff
     let std_i = sqrt(mean(diff_sq))
-    
     let sigma_avg = std_i / avg_i
     
     print avg_i
-    print i_dac_max
-    print i_dac_min
     print std_i
     print sigma_avg
 .endc

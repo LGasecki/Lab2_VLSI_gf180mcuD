@@ -1,0 +1,490 @@
+{
+  "netlist_source_config": {
+    "source_path": "/headless/.xschem/simulations/DAC_CORE_5bit.spice",
+    "file_format": "simulation_spice_netlist",
+    "hierarchy_mode": "preserve_hierarchy",
+    "cell_import_settings": [
+      {
+        "cell_name": "DAC_CORE_5bit",
+        "import_mode": "new_cell",
+        "static_library": "gf180mcu",
+        "static_cell": "",
+        "instance_settings": [
+          {
+            "instance_name": "MK1",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK2[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK2[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK3[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK3[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK3[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK3[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[4]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[5]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[6]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK4[7]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[4]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[5]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[6]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[7]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[8]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[9]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[10]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[11]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[12]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[13]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[14]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "MK5[15]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M1",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M2[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M2[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M3[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M3[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M3[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M3[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[4]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[5]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[6]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M4[7]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[0]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[1]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[2]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[3]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[4]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[5]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[6]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[7]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[8]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[9]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[10]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[11]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[12]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[13]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[14]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          },
+          {
+            "instance_name": "M5[15]",
+            "device_name": "pfet_03v3",
+            "import_mode": "external_static_cell",
+            "static_library": "gf180mcu",
+            "static_cell": "pfet"
+          }
+        ]
+      }
+    ]
+  },
+  "tech_cell_map": {
+    "entries": [
+      {
+        "netlist_device": "pfet_3V3",
+        "layout_cell_library": "gf180mcu",
+        "layout_cell": "pfet",
+        "layout_cell_type": "pcell",
+        "parameter_mapping": {
+          "entries": {
+            "w": "@w",
+            "l": "@l",
+            "ng": "@ng"
+          }
+        },
+        "multiplier": "@m"
+      },
+      {
+        "netlist_device": "SG13_LV_NMOS",
+        "layout_cell_library": "SG13_dev",
+        "layout_cell": "sg13_lv_nmos",
+        "layout_cell_type": "pcell",
+        "parameter_mapping": {
+          "entries": {
+            "w": "@w",
+            "l": "@l",
+            "ng": "@ng"
+          }
+        },
+        "multiplier": "@m"
+      }
+    ]
+  },
+  "layout_config": {
+    "origin_x": "0.0",
+    "origin_y": "0.0",
+    "limit_columns": "1",
+    "max_columns": "10",
+    "pitch": "50.0"
+  }
+}

@@ -1,2 +1,4 @@
 .magicrc
 xschemrc
+*.klay.gds
+*.klay.klib
