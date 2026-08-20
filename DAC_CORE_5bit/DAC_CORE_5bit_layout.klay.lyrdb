@@ -2,7 +2,7 @@
 <report-database>
  <description/>
  <original-file/>
- <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/tech/drc/gf180mcu.drc'</generator>
+ <generator>drc: script='/foss/pdks/ciel/gf180mcu/versions/f6eeac7dad085ffcc829ccfd721f7b4ce39edcf7/gf180mcuD/libs.tech/klayout/tech/drc/gf180mcu.drc'</generator>
  <top-cell>DAC_CORE_5bit</top-cell>
  <tags>
  </tags>
@@ -1588,14 +1588,6 @@
   <category>
    <name>CUP.3</name>
    <description>CUP.3 : Minimum space of Metal5 line used for bond pads (slots): 1</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M1.4</name>
-   <description>M1.4 : Metal1 coverage over the entire die shall be &gt;30%
-                  (Refer to section 13.0 for Dummy Metal fill guidelines.
-                   Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%</description>
    <categories>
    </categories>
   </category>
@@ -4764,17 +4756,6 @@
    <references>
    </references>
   </cell>
-  <cell>
-   <name>PFET_BASE_CELL_2</name>
-   <variant/>
-   <layout-name>PFET_BASE_CELL_2</layout-name>
-   <references>
-    <ref>
-     <parent>DAC_CORE_5bit</parent>
-     <trans>r0 *1 0,0</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
   <item>
@@ -4786,19 +4767,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>DAC_CORE_5bit</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
   <item>
@@ -4810,7 +4779,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
   <item>
@@ -4822,7 +4791,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
   <item>
@@ -4834,7 +4803,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
   <item>
@@ -4846,7 +4815,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
   <item>
@@ -4858,19 +4827,7 @@
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0,-3.29;0,24.36;93.26,24.36;93.26,-3.29)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'DF.13_LV'</category>
-   <cell>PFET_BASE_CELL_2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (0.61,0.74;0.61,2.74;6.91,2.74;6.91,0.74)</value>
+    <value>polygon: (1.88,0;1.88,29.12;85.79,29.12;85.79,0)</value>
    </values>
   </item>
  </items>

@@ -1,0 +1,46 @@
+* Extracted by KLayout with GF180MCU LVS runset on : 20/08/2026 12:50
+
+* cell DAC_CORE_5bit
+* pin DAC_REF
+* pin I_DAC
+* pin VDD
+* pin b[0]
+* pin b[1]
+* pin b[2]
+* pin b[3]
+* pin b[4]
+.SUBCKT DAC_CORE_5bit DAC_REF I_DAC VDD b[0] b[1] b[2] b[3] b[4]
+* device instance $1 r0 *1 81.07,23.98 pfet_03v3
+M$1 VDD DAC_REF VDD VDD pfet_03v3 L=5U W=64U AS=41.6P AD=41.6P PS=169.6U
++ PD=169.6U
+* device instance $10 r0 *1 73.55,17.02 pfet_03v3
+M$10 VDD DAC_REF \$32 VDD pfet_03v3 L=5U W=32U AS=20.8P AD=20.8P PS=84.8U
++ PD=84.8U
+* device instance $23 r0 *1 58.51,20.5 pfet_03v3
+M$23 VDD DAC_REF \$13 VDD pfet_03v3 L=5U W=16U AS=10.4P AD=10.4P PS=42.4U
++ PD=42.4U
+* device instance $24 r0 *1 58.51,17.02 pfet_03v3
+M$24 VDD DAC_REF \$10 VDD pfet_03v3 L=5U W=8U AS=5.2P AD=5.2P PS=21.2U PD=21.2U
+* device instance $25 r0 *1 58.51,13.54 pfet_03v3
+M$25 VDD DAC_REF \$11 VDD pfet_03v3 L=5U W=4U AS=2.6P AD=2.6P PS=10.6U PD=10.6U
+* device instance $32 r0 *1 50.99,13.54 pfet_03v3
+M$32 VDD DAC_REF \$12 VDD pfet_03v3 L=5U W=2U AS=1.3P AD=1.3P PS=5.3U PD=5.3U
+* device instance $64 m90 *1 4.57,24.29 pfet_03v3
+M$64 \$32 b[4] I_DAC VDD pfet_03v3 L=0.28U W=12.48U AS=8.112P AD=8.112P
++ PS=45.76U PD=45.76U
+* device instance $68 m90 *1 4.57,13.73 pfet_03v3
+M$68 \$13 b[3] I_DAC VDD pfet_03v3 L=0.28U W=6.24U AS=4.056P AD=4.056P
++ PS=22.88U PD=22.88U
+* device instance $70 m90 *1 4.57,8.45 pfet_03v3
+M$70 \$10 b[2] I_DAC VDD pfet_03v3 L=0.28U W=3.12U AS=2.028P AD=2.028P
++ PS=11.44U PD=11.44U
+* device instance $78 m90 *1 8.81,5.81 pfet_03v3
+M$78 \$11 b[1] I_DAC VDD pfet_03v3 L=0.28U W=1.56U AS=1.014P AD=1.014P PS=5.72U
++ PD=5.72U
+* device instance $87 m90 *1 4.57,5.81 pfet_03v3
+M$87 I_DAC b[1] I_DAC VDD pfet_03v3 L=0.28U W=0.78U AS=0.507P AD=0.507P
++ PS=2.86U PD=2.86U
+* device instance $95 r0 *1 10.73,5.81 pfet_03v3
+M$95 \$12 b[0] I_DAC VDD pfet_03v3 L=0.28U W=0.78U AS=0.507P AD=0.507P PS=2.86U
++ PD=2.86U
+.ENDS DAC_CORE_5bit
