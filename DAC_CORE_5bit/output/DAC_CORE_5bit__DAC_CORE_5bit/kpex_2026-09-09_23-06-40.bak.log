@@ -1,0 +1,277 @@
+[2026-09-09 23:06:35,998] [INFO]    GDS input file passed, running in LVS mode
+[2026-09-09 23:06:36,000] [INFO]    Found cell DAC_CORE_5bit in GDS DAC_CORE_5bit.klay.gds (only top cell)
+[2026-09-09 23:06:36,001] [INFO]    LVS input schematic not specified (argument --schematic), using dummy schematic
+[2026-09-09 23:06:36,005] [WARNING]    Cache hit: Reusing cached LVSDB
+[2026-09-09 23:06:36,006] [SUBPROCESS]    output/.kpex_cache/gf180mcuD/foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.klay.gds/DAC_CORE_5bit.lvsdb.gz
+[2026-09-09 23:06:36,023] [WARNING]    Unable to find info about extracted LVS layer 'comp'
+[2026-09-09 23:06:36,024] [WARNING]    Unable to find info about extracted LVS layer 'nwell'
+[2026-09-09 23:06:36,025] [WARNING]    Unable to find info about extracted LVS layer 'contact'
+[2026-09-09 23:06:36,026] [WARNING]    Unable to find info about extracted LVS layer 'via1'
+[2026-09-09 23:06:36,028] [INFO]    (31, 20) -> (psd)
+[2026-09-09 23:06:36,028] [INFO]    (34, 0) -> (metal1_con)
+[2026-09-09 23:06:36,029] [INFO]    (36, 0) -> (metal2_con)
+[2026-09-09 23:06:36,052] [WARNING]    Can't find GDS pair for layer M1-Poly
+[2026-09-09 23:06:36,053] [WARNING]    Can't find GDS pair for layer Via1_con
+[2026-09-09 23:06:36,055] [WARNING]    Can't find GDS pair for layer Via2_con
+[2026-09-09 23:06:36,056] [WARNING]    Can't find GDS pair for layer Via3_con
+[2026-09-09 23:06:36,057] [WARNING]    Can't find GDS pair for layer Via4_ncap
+[2026-09-09 23:06:39,571] [INFO]    LVSDB: found 8pins
+[2026-09-09 23:06:39,574] [WARNING]    Could not find a layer for device $1, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,577] [WARNING]    Could not find a layer for device $1, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,580] [WARNING]    Could not find a layer for device $2, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,582] [WARNING]    Could not find a layer for device $2, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,584] [WARNING]    Could not find a layer for device $3, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,586] [WARNING]    Could not find a layer for device $3, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,588] [WARNING]    Could not find a layer for device $4, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,591] [WARNING]    Could not find a layer for device $4, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,594] [WARNING]    Could not find a layer for device $5, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,597] [WARNING]    Could not find a layer for device $5, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,601] [WARNING]    Could not find a layer for device $6, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,604] [WARNING]    Could not find a layer for device $6, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,607] [WARNING]    Could not find a layer for device $7, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,611] [WARNING]    Could not find a layer for device $7, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,614] [WARNING]    Could not find a layer for device $8, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,616] [WARNING]    Could not find a layer for device $8, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,618] [WARNING]    Could not find a layer for device $9, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,620] [WARNING]    Could not find a layer for device $9, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,621] [WARNING]    Could not find a layer for device $10, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,623] [WARNING]    Could not find a layer for device $10, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,625] [WARNING]    Could not find a layer for device $11, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,628] [WARNING]    Could not find a layer for device $11, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,631] [WARNING]    Could not find a layer for device $12, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,633] [WARNING]    Could not find a layer for device $12, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,635] [WARNING]    Could not find a layer for device $13, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,637] [WARNING]    Could not find a layer for device $13, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,640] [WARNING]    Could not find a layer for device $14, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,643] [WARNING]    Could not find a layer for device $14, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,648] [WARNING]    Could not find a layer for device $15, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,651] [WARNING]    Could not find a layer for device $15, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,653] [WARNING]    Could not find a layer for device $16, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,655] [WARNING]    Could not find a layer for device $16, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,657] [WARNING]    Could not find a layer for device $17, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,660] [WARNING]    Could not find a layer for device $17, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,662] [WARNING]    Could not find a layer for device $18, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,665] [WARNING]    Could not find a layer for device $18, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,667] [WARNING]    Could not find a layer for device $19, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,669] [WARNING]    Could not find a layer for device $19, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,670] [WARNING]    Could not find a layer for device $20, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,672] [WARNING]    Could not find a layer for device $20, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,674] [WARNING]    Could not find a layer for device $21, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,678] [WARNING]    Could not find a layer for device $21, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,681] [WARNING]    Could not find a layer for device $22, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,684] [WARNING]    Could not find a layer for device $22, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,686] [WARNING]    Could not find a layer for device $23, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,688] [WARNING]    Could not find a layer for device $23, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,690] [WARNING]    Could not find a layer for device $24, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,692] [WARNING]    Could not find a layer for device $24, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,694] [WARNING]    Could not find a layer for device $25, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,697] [WARNING]    Could not find a layer for device $25, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,699] [WARNING]    Could not find a layer for device $26, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,701] [WARNING]    Could not find a layer for device $26, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,703] [WARNING]    Could not find a layer for device $27, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,705] [WARNING]    Could not find a layer for device $27, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,707] [WARNING]    Could not find a layer for device $28, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,709] [WARNING]    Could not find a layer for device $28, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,713] [WARNING]    Could not find a layer for device $29, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,715] [WARNING]    Could not find a layer for device $29, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,717] [WARNING]    Could not find a layer for device $30, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,719] [WARNING]    Could not find a layer for device $30, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,722] [WARNING]    Could not find a layer for device $31, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,724] [WARNING]    Could not find a layer for device $31, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,725] [WARNING]    Could not find a layer for device $32, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,729] [WARNING]    Could not find a layer for device $32, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,731] [WARNING]    Could not find a layer for device $33, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,733] [WARNING]    Could not find a layer for device $33, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,735] [WARNING]    Could not find a layer for device $34, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,737] [WARNING]    Could not find a layer for device $34, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,739] [WARNING]    Could not find a layer for device $35, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,741] [WARNING]    Could not find a layer for device $35, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,744] [WARNING]    Could not find a layer for device $36, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,747] [WARNING]    Could not find a layer for device $36, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,748] [WARNING]    Could not find a layer for device $37, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,750] [WARNING]    Could not find a layer for device $37, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,752] [WARNING]    Could not find a layer for device $38, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,754] [WARNING]    Could not find a layer for device $38, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,755] [WARNING]    Could not find a layer for device $39, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,759] [WARNING]    Could not find a layer for device $39, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,762] [WARNING]    Could not find a layer for device $40, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,765] [WARNING]    Could not find a layer for device $40, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,767] [WARNING]    Could not find a layer for device $41, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,769] [WARNING]    Could not find a layer for device $41, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,770] [WARNING]    Could not find a layer for device $42, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,772] [WARNING]    Could not find a layer for device $42, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,774] [WARNING]    Could not find a layer for device $43, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,778] [WARNING]    Could not find a layer for device $43, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,781] [WARNING]    Could not find a layer for device $44, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,783] [WARNING]    Could not find a layer for device $44, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,785] [WARNING]    Could not find a layer for device $45, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,787] [WARNING]    Could not find a layer for device $45, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,789] [WARNING]    Could not find a layer for device $46, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,791] [WARNING]    Could not find a layer for device $46, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,793] [WARNING]    Could not find a layer for device $47, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,797] [WARNING]    Could not find a layer for device $47, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,799] [WARNING]    Could not find a layer for device $48, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,801] [WARNING]    Could not find a layer for device $48, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,804] [WARNING]    Could not find a layer for device $49, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,806] [WARNING]    Could not find a layer for device $49, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,808] [WARNING]    Could not find a layer for device $50, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,811] [WARNING]    Could not find a layer for device $50, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,814] [WARNING]    Could not find a layer for device $51, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,816] [WARNING]    Could not find a layer for device $51, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,818] [WARNING]    Could not find a layer for device $52, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,820] [WARNING]    Could not find a layer for device $52, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,821] [WARNING]    Could not find a layer for device $53, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,823] [WARNING]    Could not find a layer for device $53, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,825] [WARNING]    Could not find a layer for device $54, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,829] [WARNING]    Could not find a layer for device $54, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,832] [WARNING]    Could not find a layer for device $55, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,834] [WARNING]    Could not find a layer for device $55, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,836] [WARNING]    Could not find a layer for device $56, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,838] [WARNING]    Could not find a layer for device $56, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,840] [WARNING]    Could not find a layer for device $57, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,844] [WARNING]    Could not find a layer for device $57, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,847] [WARNING]    Could not find a layer for device $58, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,849] [WARNING]    Could not find a layer for device $58, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,851] [WARNING]    Could not find a layer for device $59, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,853] [WARNING]    Could not find a layer for device $59, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,855] [WARNING]    Could not find a layer for device $60, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,857] [WARNING]    Could not find a layer for device $60, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,860] [WARNING]    Could not find a layer for device $61, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,863] [WARNING]    Could not find a layer for device $61, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,865] [WARNING]    Could not find a layer for device $62, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,867] [WARNING]    Could not find a layer for device $62, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,869] [WARNING]    Could not find a layer for device $63, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-09 23:06:39,871] [WARNING]    Could not find a layer for device $63, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,872] [WARNING]    Could not find a layer for device $64, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,874] [WARNING]    Could not find a layer for device $64, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,877] [WARNING]    Could not find a layer for device $65, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,880] [WARNING]    Could not find a layer for device $65, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,882] [WARNING]    Could not find a layer for device $66, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,884] [WARNING]    Could not find a layer for device $66, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,886] [WARNING]    Could not find a layer for device $67, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,888] [WARNING]    Could not find a layer for device $67, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,889] [WARNING]    Could not find a layer for device $68, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,891] [WARNING]    Could not find a layer for device $68, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,893] [WARNING]    Could not find a layer for device $69, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,895] [WARNING]    Could not find a layer for device $69, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,897] [WARNING]    Could not find a layer for device $70, class pfet_03v3, terminal G, net b[2]
+[2026-09-09 23:06:39,899] [WARNING]    Could not find a layer for device $70, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,901] [WARNING]    Could not find a layer for device $71, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,902] [WARNING]    Could not find a layer for device $71, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,904] [WARNING]    Could not find a layer for device $72, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,906] [WARNING]    Could not find a layer for device $72, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,907] [WARNING]    Could not find a layer for device $73, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,911] [WARNING]    Could not find a layer for device $73, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,913] [WARNING]    Could not find a layer for device $74, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,915] [WARNING]    Could not find a layer for device $74, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,917] [WARNING]    Could not find a layer for device $75, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,919] [WARNING]    Could not find a layer for device $75, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,921] [WARNING]    Could not find a layer for device $76, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,923] [WARNING]    Could not find a layer for device $76, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,925] [WARNING]    Could not find a layer for device $77, class pfet_03v3, terminal G, net b[2]
+[2026-09-09 23:06:39,928] [WARNING]    Could not find a layer for device $77, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,931] [WARNING]    Could not find a layer for device $78, class pfet_03v3, terminal G, net b[1]
+[2026-09-09 23:06:39,932] [WARNING]    Could not find a layer for device $78, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,934] [WARNING]    Could not find a layer for device $79, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,936] [WARNING]    Could not find a layer for device $79, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,937] [WARNING]    Could not find a layer for device $80, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,939] [WARNING]    Could not find a layer for device $80, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,941] [WARNING]    Could not find a layer for device $81, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,944] [WARNING]    Could not find a layer for device $81, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,946] [WARNING]    Could not find a layer for device $82, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,949] [WARNING]    Could not find a layer for device $82, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,950] [WARNING]    Could not find a layer for device $83, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,952] [WARNING]    Could not find a layer for device $83, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,953] [WARNING]    Could not find a layer for device $84, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,955] [WARNING]    Could not find a layer for device $84, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,957] [WARNING]    Could not find a layer for device $85, class pfet_03v3, terminal G, net b[2]
+[2026-09-09 23:06:39,959] [WARNING]    Could not find a layer for device $85, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,962] [WARNING]    Could not find a layer for device $86, class pfet_03v3, terminal G, net b[1]
+[2026-09-09 23:06:39,965] [WARNING]    Could not find a layer for device $86, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,967] [WARNING]    Could not find a layer for device $87, class pfet_03v3, terminal G, net b[1]
+[2026-09-09 23:06:39,969] [WARNING]    Could not find a layer for device $87, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,970] [WARNING]    Could not find a layer for device $88, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,972] [WARNING]    Could not find a layer for device $88, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,973] [WARNING]    Could not find a layer for device $89, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,975] [WARNING]    Could not find a layer for device $89, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,978] [WARNING]    Could not find a layer for device $90, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,980] [WARNING]    Could not find a layer for device $90, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,982] [WARNING]    Could not find a layer for device $91, class pfet_03v3, terminal G, net b[4]
+[2026-09-09 23:06:39,984] [WARNING]    Could not find a layer for device $91, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,985] [WARNING]    Could not find a layer for device $92, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,987] [WARNING]    Could not find a layer for device $92, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,989] [WARNING]    Could not find a layer for device $93, class pfet_03v3, terminal G, net b[3]
+[2026-09-09 23:06:39,990] [WARNING]    Could not find a layer for device $93, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,992] [WARNING]    Could not find a layer for device $94, class pfet_03v3, terminal G, net b[2]
+[2026-09-09 23:06:39,995] [WARNING]    Could not find a layer for device $94, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:39,997] [WARNING]    Could not find a layer for device $95, class pfet_03v3, terminal G, net b[0]
+[2026-09-09 23:06:39,999] [WARNING]    Could not find a layer for device $95, class pfet_03v3, terminal B, net VDD
+[2026-09-09 23:06:40,683] [SUBPROCESS]    Device;Net1;Net2;Capacitance [fF];Resistance [Ω]
+[2026-09-09 23:06:40,684] [SUBPROCESS]    C1;$10;$13;1.668;
+[2026-09-09 23:06:40,684] [SUBPROCESS]    C2;$10;$14;0.249;
+[2026-09-09 23:06:40,685] [SUBPROCESS]    C3;$10;$15;0.58;
+[2026-09-09 23:06:40,686] [SUBPROCESS]    C4;$10;$27;3.266;
+[2026-09-09 23:06:40,686] [SUBPROCESS]    C5;$10;b[0];0.003;
+[2026-09-09 23:06:40,687] [SUBPROCESS]    C6;$10;b[2];0.439;
+[2026-09-09 23:06:40,687] [SUBPROCESS]    C7;$10;b[3];2.105;
+[2026-09-09 23:06:40,688] [SUBPROCESS]    C8;$10;b[4];0.012;
+[2026-09-09 23:06:40,688] [SUBPROCESS]    C9;$10;DAC_REF;0.013;
+[2026-09-09 23:06:40,689] [SUBPROCESS]    C10;$10;I_DAC;0.852;
+[2026-09-09 23:06:40,689] [SUBPROCESS]    C11;$10;VDD;7.023;
+[2026-09-09 23:06:40,690] [SUBPROCESS]    C12;$10;VSUBS;7.219;
+[2026-09-09 23:06:40,690] [SUBPROCESS]    C13;$13;$14;2.935;
+[2026-09-09 23:06:40,690] [SUBPROCESS]    C14;$13;$15;0.097;
+[2026-09-09 23:06:40,691] [SUBPROCESS]    C15;$13;$27;0.491;
+[2026-09-09 23:06:40,691] [SUBPROCESS]    C16;$13;b[0];0.117;
+[2026-09-09 23:06:40,692] [SUBPROCESS]    C17;$13;b[1];0.326;
+[2026-09-09 23:06:40,692] [SUBPROCESS]    C18;$13;b[2];0.525;
+[2026-09-09 23:06:40,692] [SUBPROCESS]    C19;$13;I_DAC;0.382;
+[2026-09-09 23:06:40,693] [SUBPROCESS]    C20;$13;VDD;3.839;
+[2026-09-09 23:06:40,693] [SUBPROCESS]    C21;$13;VSUBS;3.194;
+[2026-09-09 23:06:40,694] [SUBPROCESS]    C22;$14;$15;1.178;
+[2026-09-09 23:06:40,694] [SUBPROCESS]    C23;$14;$27;0.351;
+[2026-09-09 23:06:40,695] [SUBPROCESS]    C24;$14;b[0];0.14;
+[2026-09-09 23:06:40,695] [SUBPROCESS]    C25;$14;b[1];0.126;
+[2026-09-09 23:06:40,696] [SUBPROCESS]    C26;$14;I_DAC;0.343;
+[2026-09-09 23:06:40,696] [SUBPROCESS]    C27;$14;VDD;2.038;
+[2026-09-09 23:06:40,696] [SUBPROCESS]    C28;$14;VSUBS;1.826;
+[2026-09-09 23:06:40,697] [SUBPROCESS]    C29;$15;$27;0.33;
+[2026-09-09 23:06:40,697] [SUBPROCESS]    C30;$15;b[0];0.299;
+[2026-09-09 23:06:40,698] [SUBPROCESS]    C31;$15;I_DAC;0.057;
+[2026-09-09 23:06:40,698] [SUBPROCESS]    C32;$15;VDD;1.178;
+[2026-09-09 23:06:40,698] [SUBPROCESS]    C33;$15;VSUBS;1.729;
+[2026-09-09 23:06:40,699] [SUBPROCESS]    C34;$27;b[3];0.073;
+[2026-09-09 23:06:40,699] [SUBPROCESS]    C35;$27;b[4];3.887;
+[2026-09-09 23:06:40,700] [SUBPROCESS]    C36;$27;DAC_REF;0.062;
+[2026-09-09 23:06:40,700] [SUBPROCESS]    C37;$27;I_DAC;1.387;
+[2026-09-09 23:06:40,700] [SUBPROCESS]    C38;$27;VDD;10.237;
+[2026-09-09 23:06:40,701] [SUBPROCESS]    C39;$27;VSUBS;9.875;
+[2026-09-09 23:06:40,701] [SUBPROCESS]    C40;b[0];b[1];0.05;
+[2026-09-09 23:06:40,702] [SUBPROCESS]    C41;b[0];b[2];0.016;
+[2026-09-09 23:06:40,703] [SUBPROCESS]    C42;b[1];b[2];0.062;
+[2026-09-09 23:06:40,703] [SUBPROCESS]    C43;b[1];b[3];0.0;
+[2026-09-09 23:06:40,704] [SUBPROCESS]    C44;b[2];b[3];0.079;
+[2026-09-09 23:06:40,704] [SUBPROCESS]    C45;b[3];b[4];0.252;
+[2026-09-09 23:06:40,705] [SUBPROCESS]    C46;DAC_REF;VDD;1.307;
+[2026-09-09 23:06:40,705] [SUBPROCESS]    C47;DAC_REF;VSUBS;0.553;
+[2026-09-09 23:06:40,706] [SUBPROCESS]    C48;I_DAC;b[0];1.227;
+[2026-09-09 23:06:40,706] [SUBPROCESS]    C49;I_DAC;b[1];0.862;
+[2026-09-09 23:06:40,707] [SUBPROCESS]    C50;I_DAC;b[2];1.063;
+[2026-09-09 23:06:40,707] [SUBPROCESS]    C51;I_DAC;b[3];2.166;
+[2026-09-09 23:06:40,708] [SUBPROCESS]    C52;I_DAC;b[4];4.595;
+[2026-09-09 23:06:40,708] [SUBPROCESS]    C53;I_DAC;VDD;1.197;
+[2026-09-09 23:06:40,708] [SUBPROCESS]    C54;I_DAC;VSUBS;3.606;
+[2026-09-09 23:06:40,709] [SUBPROCESS]    C55;VDD;b[0];2.273;
+[2026-09-09 23:06:40,709] [SUBPROCESS]    C56;VDD;b[1];0.11;
+[2026-09-09 23:06:40,710] [SUBPROCESS]    C57;VDD;b[2];0.137;
+[2026-09-09 23:06:40,710] [SUBPROCESS]    C58;VDD;b[3];0.228;
+[2026-09-09 23:06:40,711] [SUBPROCESS]    C59;VDD;b[4];0.778;
+[2026-09-09 23:06:40,711] [SUBPROCESS]    C60;VDD;VSUBS;49.48;
+[2026-09-09 23:06:40,712] [SUBPROCESS]    C61;VSUBS;b[0];0.688;
+[2026-09-09 23:06:40,712] [SUBPROCESS]    C62;VSUBS;b[1];0.403;
+[2026-09-09 23:06:40,713] [SUBPROCESS]    C63;VSUBS;b[2];0.438;
+[2026-09-09 23:06:40,713] [SUBPROCESS]    C64;VSUBS;b[3];0.924;
+[2026-09-09 23:06:40,714] [SUBPROCESS]    C65;VSUBS;b[4];2.009;
+[2026-09-09 23:06:40,715] [SUBPROCESS]    /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.csv
+[2026-09-09 23:06:40,721] [SUBPROCESS]    Wrote expanded netlist to: /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.spice
+[2026-09-09 23:06:40,724] [INFO]    Copied expanded SPICE netlist to: DAC_CORE_5bit.pex.spice

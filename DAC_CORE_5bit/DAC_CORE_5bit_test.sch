@@ -78,16 +78,16 @@ C {lab_pin.sym} 420 -390 0 0 {name=p5 sig_type=std_logic lab=VDD
 C {lab_pin.sym} 160 -290 0 0 {name=p6 sig_type=std_logic lab=VDD
 }
 C {gnd.sym} 160 -150 0 0 {name=l3 lab=gnd}
-C {vsource.sym} 470 -80 1 0 {name=V1 value="\{VDD*((dac_bit-4*floor(dac_bit/4)>1))\}" savecurrent=false}
+C {vsource.sym} 470 -80 1 0 {name=V1 value="\{VDD*((dac_bit-4*floor(dac_bit/4)>1.5))\}" savecurrent=false}
 C {lab_pin.sym} 390 -80 0 0 {name=p7 sig_type=std_logic lab=b[1]
 }
-C {vsource.sym} 630 -80 1 0 {name=V2 value="\{VDD*((dac_bit-8*floor(dac_bit/8)>3))\}" savecurrent=false}
+C {vsource.sym} 630 -80 1 0 {name=V2 value="\{VDD*((dac_bit-8*floor(dac_bit/8)>3.5))\}" savecurrent=false}
 C {lab_pin.sym} 550 -80 0 0 {name=p8 sig_type=std_logic lab=b[2]
 }
-C {vsource.sym} 790 -80 1 0 {name=V3 value="\{VDD*((dac_bit-16*floor(dac_bit/16)>7))\}" savecurrent=false}
+C {vsource.sym} 790 -80 1 0 {name=V3 value="\{VDD*((dac_bit-16*floor(dac_bit/16)>7.5))\}" savecurrent=false}
 C {lab_pin.sym} 710 -80 0 0 {name=p9 sig_type=std_logic lab=b[3]
 }
-C {vsource.sym} 950 -80 1 0 {name=V4 value="\{VDD*((dac_bit-32*floor(dac_bit/32)>15))\}" savecurrent=false}
+C {vsource.sym} 950 -80 1 0 {name=V4 value="\{VDD*((dac_bit-32*floor(dac_bit/32)>15.5))\}" savecurrent=false}
 C {lab_pin.sym} 870 -80 0 0 {name=p10 sig_type=std_logic lab=b[4]
 }
 C {lab_wire.sym} 710 -30 0 0 {name=p11 sig_type=std_logic lab=VDD
@@ -97,37 +97,30 @@ C {lab_pin.sym} 710 -280 0 0 {name=p12 sig_type=std_logic lab=I_DAC
 C {devices/code_shown.sym} 820 -470 0 0 {name=LIB_SETUP only_toplevel=false value="
 .include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
 .lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.include /foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.pex.spice
 "}
 C {DAC_CORE_5bit/DAC_CORE_5bit.sym} 630 -330 0 0 {name=x1}
 C {devices/code_shown.sym} 1060 -370 0 0 {name=Code only_toplevel=false value="
 .param sw_stat_global=0
-.param sw_stat_mismatch=1
+.param sw_stat_mismatch=0
 
 .param VDD=3.3
 .param RES_DAC=106k
 .param dac_bit=31
 .control
 
-    let runs = 100
-    let i_out_vec = vector(runs)
-    let run = 1
+let dac_code = vector(32)
+let i_out = vector(32)
+let i = 0
+while i <= 31
+   alterparam dac_bit = $&i
+   reset
+   op
+   let dac_code[$&i] = i
+   let i_out[$&i] = v(i_dac) / 100
+   let i = i + 1
+end
+plot i_out vs dac_code xlabel 'dac_bit (0-31)' ylabel 'I_DAC [A]'
 
-    dowhile run <= runs
-        reset
-        op
-        
-        let i_out_vec[run-1] = @res_out[i]
-        let run = run + 1
-    end
-
-    let avg_i = mean(i_out_vec)
-    let diff = i_out_vec - avg_i
-    let diff_sq = diff * diff
-    let std_i = sqrt(mean(diff_sq))
-    let sigma_avg = std_i / avg_i
-    
-    print avg_i
-    print std_i
-    print sigma_avg
 .endc
 "}

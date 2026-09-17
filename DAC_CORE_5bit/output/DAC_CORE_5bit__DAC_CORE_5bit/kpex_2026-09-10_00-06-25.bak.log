@@ -1,0 +1,550 @@
+[2026-09-10 00:06:15,072] [INFO]    GDS input file passed, running in LVS mode
+[2026-09-10 00:06:15,075] [INFO]    Found cell DAC_CORE_5bit in GDS DAC_CORE_5bit.klay.gds (only top cell)
+[2026-09-10 00:06:15,076] [INFO]    LVS input schematic not specified (argument --schematic), using dummy schematic
+[2026-09-10 00:06:15,080] [INFO]    Cache miss: extracted LVSDB is older than the input GDS
+[2026-09-10 00:06:15,081] [SUBPROCESS]    output/.kpex_cache/gf180mcuD/foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.klay.gds/DAC_CORE_5bit.lvsdb.gz
+[2026-09-10 00:06:15,082] [SUBPROCESS]    klayout -b -r /usr/local/lib/python3.12/dist-packages/klayout_pex/pdk/gf180mcuD/libs.tech/kpex/gf180mcu.lvs -rd input=/foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.klay.gds -rd report=/foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit.lvsdb.gz -rd schematic=/foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_dummy_schematic.spice -rd thr=22 -rd run_mode=deep -rd spice_net_names=true -rd spice_comments=false -rd scale=false -rd verbose=false -rd schematic_simplify=false -rd net_only=false -rd top_lvl_pins=true -rd combine=false -rd combine_devices=false -rd purge=false -rd purge_nets=false -rd no_simplify=true
+[2026-09-10 00:06:15,084] [SUBPROCESS]    output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_lvs.log
+[2026-09-10 00:06:17,243] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Starting running GF180MCU Klayout LVS runset on /foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.klay.gds
+[2026-09-10 00:06:17,252] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Ruby Version for klayout: 3.2.3
+[2026-09-10 00:06:17,258] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Loading database to memory is complete.
+[2026-09-10 00:06:17,263] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : GF180MCU Klayout LVS runset output at: /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit.lvsdb.gz
+[2026-09-10 00:06:17,271] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Evaluate switches.
+[2026-09-10 00:06:17,278] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Substrate name used: 
+[2026-09-10 00:06:17,287] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Extracted netlist with net names: true
+[2026-09-10 00:06:17,293] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Extracted netlist with comments in details: false
+[2026-09-10 00:06:17,300] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : GF180MCU Klayout LVS extracted netlist file at: DAC_CORE_5bit_extracted.cir
+[2026-09-10 00:06:17,307] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : LVS device_scaling option: false
+[2026-09-10 00:06:17,313] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected SCH_SIMPLE option: false
+[2026-09-10 00:06:17,321] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected NET_ONLY option: false
+[2026-09-10 00:06:17,328] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected TOP_LVL_PINS option: true
+[2026-09-10 00:06:17,335] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected COMBINE option: false
+[2026-09-10 00:06:17,342] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected PURGE option: false
+[2026-09-10 00:06:17,347] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected PURGE_NETS option: false
+[2026-09-10 00:06:17,355] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Selected SIMPLIFY option: false
+[2026-09-10 00:06:17,361] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Verbose mode: false
+[2026-09-10 00:06:17,370] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : deep  mode is enabled.
+[2026-09-10 00:06:17,376] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : METAL_TOP Selected is 9K
+[2026-09-10 00:06:17,382] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : METAL_STACK Selected is 6LM
+[2026-09-10 00:06:17,389] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : POLY_RES Selected is 1k
+[2026-09-10 00:06:17,397] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : MIM Option selected: B
+[2026-09-10 00:06:17,404] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : MIM CAP selected: 2
+[2026-09-10 00:06:17,412] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Netlist file: /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_dummy_schematic.spice
+[2026-09-10 00:06:17,421] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : Read in polygons from layers.
+[2026-09-10 00:06:17,429] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : comp has 649 polygons
+[2026-09-10 00:06:17,438] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : dnwell has 0 polygons
+[2026-09-10 00:06:17,448] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : nwell has 651 polygons
+[2026-09-10 00:06:17,456] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : lvpwell has 0 polygons
+[2026-09-10 00:06:17,463] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : dualgate has 0 polygons
+[2026-09-10 00:06:17,471] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : poly2 has 231 polygons
+[2026-09-10 00:06:17,479] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : nplus has 554 polygons
+[2026-09-10 00:06:17,488] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : pplus has 95 polygons
+[2026-09-10 00:06:17,495] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : sab has 0 polygons
+[2026-09-10 00:06:17,504] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : esd has 0 polygons
+[2026-09-10 00:06:17,510] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : resistor has 0 polygons
+[2026-09-10 00:06:17,520] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : fhres has 0 polygons
+[2026-09-10 00:06:17,528] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : fusetop has 0 polygons
+[2026-09-10 00:06:17,536] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : fusewindow_d has 0 polygons
+[2026-09-10 00:06:17,543] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : polyfuse has 0 polygons
+[2026-09-10 00:06:17,551] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (674564K) : mvsd has 0 polygons
+[2026-09-10 00:06:17,561] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : mvpsd has 0 polygons
+[2026-09-10 00:06:17,570] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : nat has 0 polygons
+[2026-09-10 00:06:17,577] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : comp_dummy has 0 polygons
+[2026-09-10 00:06:17,586] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : poly2_dummy has 0 polygons
+[2026-09-10 00:06:17,592] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : schottky_diode has 0 polygons
+[2026-09-10 00:06:17,601] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : zener has 0 polygons
+[2026-09-10 00:06:17,609] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : res_mk has 0 polygons
+[2026-09-10 00:06:17,617] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : opc_drc has 0 polygons
+[2026-09-10 00:06:17,624] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : ndmy has 0 polygons
+[2026-09-10 00:06:17,632] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675080K) : pmndmy has 0 polygons
+[2026-09-10 00:06:17,641] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : v5_xtor has 0 polygons
+[2026-09-10 00:06:17,650] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : cap_mk has 0 polygons
+[2026-09-10 00:06:17,658] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : mos_cap_mk has 0 polygons
+[2026-09-10 00:06:17,665] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : ind_mk has 0 polygons
+[2026-09-10 00:06:17,672] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : diode_mk has 0 polygons
+[2026-09-10 00:06:17,680] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675492K) : drc_bjt has 0 polygons
+[2026-09-10 00:06:17,689] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : lvs_bjt has 0 polygons
+[2026-09-10 00:06:17,697] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : mim_l_mk has 0 polygons
+[2026-09-10 00:06:17,705] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : latchup_mk has 0 polygons
+[2026-09-10 00:06:17,712] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : guard_ring_mk has 0 polygons
+[2026-09-10 00:06:17,720] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : otp_mk has 0 polygons
+[2026-09-10 00:06:17,747] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (675864K) : mtpmark has 0 polygons
+[2026-09-10 00:06:17,754] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : neo_ee_mk has 0 polygons
+[2026-09-10 00:06:17,761] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : sramcore has 0 polygons
+[2026-09-10 00:06:17,771] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : lvs_rf has 0 polygons
+[2026-09-10 00:06:17,777] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : lvs_drain has 0 polygons
+[2026-09-10 00:06:17,786] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : ind_mk has 0 polygons
+[2026-09-10 00:06:17,793] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : hvpolyrs has 0 polygons
+[2026-09-10 00:06:17,801] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : lvs_io has 0 polygons
+[2026-09-10 00:06:17,810] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : probe_mk has 0 polygons
+[2026-09-10 00:06:17,819] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : esd_mk has 0 polygons
+[2026-09-10 00:06:17,825] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : lvs_source has 0 polygons
+[2026-09-10 00:06:17,833] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : well_diode_mk has 0 polygons
+[2026-09-10 00:06:17,840] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : ldmos_xtor has 0 polygons
+[2026-09-10 00:06:17,850] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : plfuse has 0 polygons
+[2026-09-10 00:06:17,857] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : efuse_mk has 0 polygons
+[2026-09-10 00:06:17,864] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : mcell_feol_mk has 0 polygons
+[2026-09-10 00:06:17,871] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : ymtp_mk has 0 polygons
+[2026-09-10 00:06:17,878] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : dev_wf_mk has 0 polygons
+[2026-09-10 00:06:17,888] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : comp_label has 0 polygons
+[2026-09-10 00:06:17,895] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : poly2_label has 0 polygons
+[2026-09-10 00:06:17,904] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : mdiode has 0 polygons
+[2026-09-10 00:06:17,911] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : contact has 1034 polygons
+[2026-09-10 00:06:17,920] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_drawn has 1055 polygons
+[2026-09-10 00:06:17,930] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_dummy has 0 polygons
+[2026-09-10 00:06:17,938] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_label has 1 polygons
+[2026-09-10 00:06:17,945] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_slot has 0 polygons
+[2026-09-10 00:06:17,952] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_blk has 0 polygons
+[2026-09-10 00:06:17,960] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal1_res has 0 polygons
+[2026-09-10 00:06:17,970] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : via1 has 106 polygons
+[2026-09-10 00:06:17,977] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal2_drawn has 149 polygons
+[2026-09-10 00:06:17,987] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal2_dummy has 0 polygons
+[2026-09-10 00:06:17,994] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal2_label has 7 polygons
+[2026-09-10 00:06:18,003] [SUBPROCESS]    2026-09-10 00:06:17 +0200: Memory Usage (676236K) : metal2_slot has 0 polygons
+[2026-09-10 00:06:18,011] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal2_blk has 0 polygons
+[2026-09-10 00:06:18,020] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal2_res has 0 polygons
+[2026-09-10 00:06:18,027] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : via2 has 0 polygons
+[2026-09-10 00:06:18,036] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_drawn has 0 polygons
+[2026-09-10 00:06:18,044] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_dummy has 0 polygons
+[2026-09-10 00:06:18,053] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_label has 0 polygons
+[2026-09-10 00:06:18,060] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_slot has 0 polygons
+[2026-09-10 00:06:18,069] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_blk has 0 polygons
+[2026-09-10 00:06:18,075] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal3_res has 0 polygons
+[2026-09-10 00:06:18,084] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : via3 has 0 polygons
+[2026-09-10 00:06:18,091] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_drawn has 0 polygons
+[2026-09-10 00:06:18,100] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_dummy has 0 polygons
+[2026-09-10 00:06:18,107] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_label has 0 polygons
+[2026-09-10 00:06:18,114] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_slot has 0 polygons
+[2026-09-10 00:06:18,122] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_blk has 0 polygons
+[2026-09-10 00:06:18,129] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : metal4_res has 0 polygons
+[2026-09-10 00:06:18,138] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676236K) : via4 has 0 polygons
+[2026-09-10 00:06:18,145] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_drawn has 0 polygons
+[2026-09-10 00:06:18,154] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_dummy has 0 polygons
+[2026-09-10 00:06:18,162] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_label has 0 polygons
+[2026-09-10 00:06:18,171] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_slot has 0 polygons
+[2026-09-10 00:06:18,177] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_blk has 0 polygons
+[2026-09-10 00:06:18,186] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (676628K) : metal5_res has 0 polygons
+[2026-09-10 00:06:18,193] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : via5 has 0 polygons
+[2026-09-10 00:06:18,201] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : metaltop_drawn has 0 polygons
+[2026-09-10 00:06:18,210] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : metaltop_dummy has 0 polygons
+[2026-09-10 00:06:18,219] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : metaltop_label has 0 polygons
+[2026-09-10 00:06:18,226] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : metaltop_slot has 0 polygons
+[2026-09-10 00:06:18,235] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677036K) : metaltop_blk has 0 polygons
+[2026-09-10 00:06:18,243] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : metal6_res has 0 polygons
+[2026-09-10 00:06:18,270] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : pad has 0 polygons
+[2026-09-10 00:06:18,277] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : ubmpperi has 0 polygons
+[2026-09-10 00:06:18,286] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : ubmparray has 0 polygons
+[2026-09-10 00:06:18,294] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : ubmeplate has 0 polygons
+[2026-09-10 00:06:18,302] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : pr_bndry has 0 polygons
+[2026-09-10 00:06:18,308] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : border has 0 polygons
+[2026-09-10 00:06:18,314] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : Total no. of polygons in the design is 4532
+[2026-09-10 00:06:18,322] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : Starting deriving base layers.
+[2026-09-10 00:06:18,329] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : Starting GF180MCU LVS runset
+[2026-09-10 00:06:18,437] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (677448K) : Starting base layers derivations
+[2026-09-10 00:06:18,453] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (825308K) : Starting MOSFET DERIVATIONS
+[2026-09-10 00:06:18,492] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (826064K) : Starting PMOS layers DERIVATIONS
+[2026-09-10 00:06:18,534] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (827952K) : Starting NMOS layers DERIVATIONS
+[2026-09-10 00:06:18,541] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (830244K) : Starting BJT DERIVATIONS
+[2026-09-10 00:06:18,627] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (830244K) : Starting vnpn layers DERIVATIONS
+[2026-09-10 00:06:18,692] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (835536K) : Starting vpnp layers DERIVATIONS
+[2026-09-10 00:06:18,824] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (837804K) : Starting DIODE DERIVATIONS
+[2026-09-10 00:06:18,998] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (838560K) : Starting RESISTOR DERIVATIONS
+[2026-09-10 00:06:19,014] [SUBPROCESS]    2026-09-10 00:06:18 +0200: Memory Usage (838560K) : Starting MIMCAP DERIVATIONS
+[2026-09-10 00:06:19,056] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting MOSCAP DERIVATIONS
+[2026-09-10 00:06:19,073] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting MOS SAB DERIVATIONS
+[2026-09-10 00:06:19,097] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting PMOS SAB DERIVATIONS
+[2026-09-10 00:06:19,123] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting NMOS SAB DERIVATIONS
+[2026-09-10 00:06:19,137] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting NMOS EFUSE DERIVATIONS
+[2026-09-10 00:06:19,144] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting GF180 LVS connectivity setup
+[2026-09-10 00:06:19,152] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting GF180 LVS connectivity setup (Inter-layer)
+[2026-09-10 00:06:19,158] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting GF180 LVS connectivity setup (Global)
+[2026-09-10 00:06:19,165] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting GF180 LVS connectivity setup (Multifinger Devices)
+[2026-09-10 00:06:19,172] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS MOSFET CONNECTIONS
+[2026-09-10 00:06:19,178] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS BJT CONNECTIONS
+[2026-09-10 00:06:19,186] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS DIODE CONNECTIONS
+[2026-09-10 00:06:19,193] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS MIMCAP CONNECTIONS
+[2026-09-10 00:06:19,199] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS RESISTOR CONNECTIONS
+[2026-09-10 00:06:19,206] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting LVS EFUSE CONNECTIONS
+[2026-09-10 00:06:19,212] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting GF180 LVS DEVICES EXTRACTION
+[2026-09-10 00:06:19,219] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting MOSFET EXTRACTION
+[2026-09-10 00:06:19,226] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Starting PMOS EXTRACTION
+[2026-09-10 00:06:19,238] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 3.3V PMOS transistor outside DNWEL
+[2026-09-10 00:06:19,246] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 5V PMOS transistor outside DNWELL
+[2026-09-10 00:06:19,254] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 6V PMOS transistor outside DNWELL
+[2026-09-10 00:06:19,261] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 3.3V PMOS transistor inside DNWELL
+[2026-09-10 00:06:19,270] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 5V PMOS transistor inside DNWELL
+[2026-09-10 00:06:19,279] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting 6V PMOS transistor inside DNWELL
+[2026-09-10 00:06:19,308] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838560K) : Extracting LDPMOS transistor
+[2026-09-10 00:06:19,315] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting NMOS EXTRACTION
+[2026-09-10 00:06:19,322] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 3.3V NMOS transistor outside DNWELL
+[2026-09-10 00:06:19,331] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 5V NMOS transistor outside DNWELL
+[2026-09-10 00:06:19,338] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 6V NMOS transistor outside DNWELL
+[2026-09-10 00:06:19,347] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 3.3V NMOS transistor inside DNWELL
+[2026-09-10 00:06:19,355] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 5V NMOS transistor inside DNWELL
+[2026-09-10 00:06:19,363] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : 6V NMOS transistor inside DNWELL
+[2026-09-10 00:06:19,371] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Native Vt NMOS transistor
+[2026-09-10 00:06:19,378] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting LDNMOS transistor
+[2026-09-10 00:06:19,386] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting BJT EXTRACTION
+[2026-09-10 00:06:19,392] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting vnpn BJT EXTRACTION
+[2026-09-10 00:06:19,405] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_10p00x10p00 BJT
+[2026-09-10 00:06:19,417] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_05p00x05p00 BJT
+[2026-09-10 00:06:19,430] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_00p54x16p00 BJT
+[2026-09-10 00:06:19,440] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_00p54x08p00 BJT
+[2026-09-10 00:06:19,451] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_00p54x04p00 BJT
+[2026-09-10 00:06:19,463] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting npn_00p54x02p00 BJT
+[2026-09-10 00:06:19,470] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting vpnp BJT EXTRACTION
+[2026-09-10 00:06:19,480] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting pnp_10p00x10p00 BJT
+[2026-09-10 00:06:19,490] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting pnp_05p00x05p00 BJT
+[2026-09-10 00:06:19,500] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting pnp_10p00x00p42 BJT
+[2026-09-10 00:06:19,514] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting pnp_05p00x00p42 BJT
+[2026-09-10 00:06:19,521] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting DIODE EXTRACTION
+[2026-09-10 00:06:19,529] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nd2ps_03v3 diode
+[2026-09-10 00:06:19,537] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nd2ps_03v3_dn diode
+[2026-09-10 00:06:19,545] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nd2ps_06v0 diode
+[2026-09-10 00:06:19,554] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nd2ps_06v0_dn diode
+[2026-09-10 00:06:19,563] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_pd2nw_03v3 diode
+[2026-09-10 00:06:19,572] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extractingdiode_pd2nw_03v3_dn diode
+[2026-09-10 00:06:19,580] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_pd2nw_06v0 diode
+[2026-09-10 00:06:19,588] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_pd2nw_06v0_dn diode
+[2026-09-10 00:06:19,597] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nw2ps_03v3 diode
+[2026-09-10 00:06:19,604] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_nw2ps_06v0 diode
+[2026-09-10 00:06:19,613] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_pw2dw_03v3 diode
+[2026-09-10 00:06:19,620] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_pw2dw_06v0 diode
+[2026-09-10 00:06:19,629] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_dw2ps_03v3 diode
+[2026-09-10 00:06:19,637] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting diode_dw2ps_06v0 diode
+[2026-09-10 00:06:19,645] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting sc_diode diode
+[2026-09-10 00:06:19,651] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting RESISTOR EXTRACTION
+[2026-09-10 00:06:19,659] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPLUS_U device
+[2026-09-10 00:06:19,669] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPLUS_U_DW device
+[2026-09-10 00:06:19,678] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPLUS_U device
+[2026-09-10 00:06:19,686] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPLUS_U_DW device
+[2026-09-10 00:06:19,694] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPLUS_S device
+[2026-09-10 00:06:19,702] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPLUS_S_DW device
+[2026-09-10 00:06:19,712] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPLUS_S device
+[2026-09-10 00:06:19,720] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPLUS_S_DW device
+[2026-09-10 00:06:19,728] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NWELL device
+[2026-09-10 00:06:19,736] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PWELL device
+[2026-09-10 00:06:19,745] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPOLYF_U device
+[2026-09-10 00:06:19,754] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPOLYF_U_DW device
+[2026-09-10 00:06:19,763] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U device
+[2026-09-10 00:06:19,771] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U_DW device
+[2026-09-10 00:06:19,779] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPOLYF_S device
+[2026-09-10 00:06:19,788] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting NPOLYF_S_DW device
+[2026-09-10 00:06:19,797] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_S device
+[2026-09-10 00:06:19,806] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_S_DW device
+[2026-09-10 00:06:19,833] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U_1K device
+[2026-09-10 00:06:19,841] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U_DW_1 device
+[2026-09-10 00:06:19,850] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U_1K_6p0 device
+[2026-09-10 00:06:19,858] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting PPOLYF_U_DW_1K_6p0 device
+[2026-09-10 00:06:19,872] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting RM1 device
+[2026-09-10 00:06:19,882] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting RM2 device
+[2026-09-10 00:06:19,890] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting RM3 device
+[2026-09-10 00:06:19,898] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting TM9K device
+[2026-09-10 00:06:19,904] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting MIMCAP EXTRACTION
+[2026-09-10 00:06:19,913] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_mim2f0 device
+[2026-09-10 00:06:19,919] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Starting MOSCAP EXTRACTION
+[2026-09-10 00:06:19,927] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_nmos_03v3 device
+[2026-09-10 00:06:19,935] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_nmos_03v3_dn device
+[2026-09-10 00:06:19,951] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_pmos_03v3 device
+[2026-09-10 00:06:19,958] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_pmos_03v3_dn device
+[2026-09-10 00:06:19,967] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_nmos_06v0 device
+[2026-09-10 00:06:19,975] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_nmos_06v0_dn device
+[2026-09-10 00:06:19,992] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_pmos_06v0 device
+[2026-09-10 00:06:20,009] [SUBPROCESS]    2026-09-10 00:06:19 +0200: Memory Usage (838940K) : Extracting cap_pmos_06v0 device
+[2026-09-10 00:06:20,017] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting cap_pmos_03v3_b device
+[2026-09-10 00:06:20,033] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting cap_nmos_06v0_b device
+[2026-09-10 00:06:20,041] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting cap_pmos_06v0_b device
+[2026-09-10 00:06:20,047] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Starting MOS SAB EXTRACTION
+[2026-09-10 00:06:20,053] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Starting PMOS SAB EXTRACTION
+[2026-09-10 00:06:20,061] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 3.3V ESD PMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,071] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 5V ESD PMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,080] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 6V ESD PMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,088] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 3.3V ESD PMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,096] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 5V ESD PMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,104] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 6V ESD PMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,111] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Starting NMOS SAB EXTRACTION
+[2026-09-10 00:06:20,120] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 3.3V ESD NMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,127] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 5V ESD NMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,136] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 6V ESD NMOS transistor outside DNWELL device
+[2026-09-10 00:06:20,145] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 3.3V ESD NMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,154] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 5V ESD NMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,162] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Extracting 6V ESD NMOS transistor inside DNWELL device
+[2026-09-10 00:06:20,170] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Starting EFUSE EXTRACTION
+[2026-09-10 00:06:20,207] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : Starting GF180 LVS comparison section
+[2026-09-10 00:06:20,215] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : LVS Total Run time 2.969476 seconds
+[2026-09-10 00:06:20,220] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[2026-09-10 00:06:20,227] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : ERROR : Netlists don't match
+[2026-09-10 00:06:20,357] [SUBPROCESS]    2026-09-10 00:06:20 +0200: Memory Usage (838940K) : xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[2026-09-10 00:06:20,478] [INFO]    klayout LVS succeeded after 5.393s
+[2026-09-10 00:06:20,497] [WARNING]    Unable to find info about extracted LVS layer 'comp'
+[2026-09-10 00:06:20,499] [WARNING]    Unable to find info about extracted LVS layer 'nwell'
+[2026-09-10 00:06:20,500] [WARNING]    Unable to find info about extracted LVS layer 'contact'
+[2026-09-10 00:06:20,501] [WARNING]    Unable to find info about extracted LVS layer 'via1'
+[2026-09-10 00:06:20,503] [INFO]    (31, 20) -> (psd)
+[2026-09-10 00:06:20,504] [INFO]    (34, 0) -> (metal1_con)
+[2026-09-10 00:06:20,505] [INFO]    (36, 0) -> (metal2_con)
+[2026-09-10 00:06:20,530] [WARNING]    Can't find GDS pair for layer M1-Poly
+[2026-09-10 00:06:20,531] [WARNING]    Can't find GDS pair for layer Via1_con
+[2026-09-10 00:06:20,533] [WARNING]    Can't find GDS pair for layer Via2_con
+[2026-09-10 00:06:20,534] [WARNING]    Can't find GDS pair for layer Via3_con
+[2026-09-10 00:06:20,535] [WARNING]    Can't find GDS pair for layer Via4_ncap
+[2026-09-10 00:06:24,140] [INFO]    LVSDB: found 8pins
+[2026-09-10 00:06:24,143] [WARNING]    Could not find a layer for device $1, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,146] [WARNING]    Could not find a layer for device $1, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,149] [WARNING]    Could not find a layer for device $2, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,151] [WARNING]    Could not find a layer for device $2, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,153] [WARNING]    Could not find a layer for device $3, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,155] [WARNING]    Could not find a layer for device $3, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,157] [WARNING]    Could not find a layer for device $4, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,160] [WARNING]    Could not find a layer for device $4, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,163] [WARNING]    Could not find a layer for device $5, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,166] [WARNING]    Could not find a layer for device $5, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,169] [WARNING]    Could not find a layer for device $6, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,171] [WARNING]    Could not find a layer for device $6, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,173] [WARNING]    Could not find a layer for device $7, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,175] [WARNING]    Could not find a layer for device $7, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,177] [WARNING]    Could not find a layer for device $8, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,179] [WARNING]    Could not find a layer for device $8, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,183] [WARNING]    Could not find a layer for device $9, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,186] [WARNING]    Could not find a layer for device $9, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,188] [WARNING]    Could not find a layer for device $10, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,190] [WARNING]    Could not find a layer for device $10, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,191] [WARNING]    Could not find a layer for device $11, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,193] [WARNING]    Could not find a layer for device $11, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,195] [WARNING]    Could not find a layer for device $12, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,197] [WARNING]    Could not find a layer for device $12, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,199] [WARNING]    Could not find a layer for device $13, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,201] [WARNING]    Could not find a layer for device $13, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,203] [WARNING]    Could not find a layer for device $14, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,205] [WARNING]    Could not find a layer for device $14, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,209] [WARNING]    Could not find a layer for device $15, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,213] [WARNING]    Could not find a layer for device $15, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,215] [WARNING]    Could not find a layer for device $16, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,217] [WARNING]    Could not find a layer for device $16, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,219] [WARNING]    Could not find a layer for device $17, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,221] [WARNING]    Could not find a layer for device $17, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,223] [WARNING]    Could not find a layer for device $18, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,225] [WARNING]    Could not find a layer for device $18, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,227] [WARNING]    Could not find a layer for device $19, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,230] [WARNING]    Could not find a layer for device $19, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,232] [WARNING]    Could not find a layer for device $20, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,234] [WARNING]    Could not find a layer for device $20, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,237] [WARNING]    Could not find a layer for device $21, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,239] [WARNING]    Could not find a layer for device $21, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,241] [WARNING]    Could not find a layer for device $22, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,243] [WARNING]    Could not find a layer for device $22, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,246] [WARNING]    Could not find a layer for device $23, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,248] [WARNING]    Could not find a layer for device $23, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,251] [WARNING]    Could not find a layer for device $24, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,254] [WARNING]    Could not find a layer for device $24, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,256] [WARNING]    Could not find a layer for device $25, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,258] [WARNING]    Could not find a layer for device $25, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,260] [WARNING]    Could not find a layer for device $26, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,263] [WARNING]    Could not find a layer for device $26, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,265] [WARNING]    Could not find a layer for device $27, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,268] [WARNING]    Could not find a layer for device $27, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,271] [WARNING]    Could not find a layer for device $28, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,273] [WARNING]    Could not find a layer for device $28, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,275] [WARNING]    Could not find a layer for device $29, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,277] [WARNING]    Could not find a layer for device $29, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,280] [WARNING]    Could not find a layer for device $30, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,283] [WARNING]    Could not find a layer for device $30, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,285] [WARNING]    Could not find a layer for device $31, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,287] [WARNING]    Could not find a layer for device $31, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,289] [WARNING]    Could not find a layer for device $32, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,291] [WARNING]    Could not find a layer for device $32, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,293] [WARNING]    Could not find a layer for device $33, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,296] [WARNING]    Could not find a layer for device $33, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,298] [WARNING]    Could not find a layer for device $34, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,301] [WARNING]    Could not find a layer for device $34, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,303] [WARNING]    Could not find a layer for device $35, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,305] [WARNING]    Could not find a layer for device $35, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,307] [WARNING]    Could not find a layer for device $36, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,309] [WARNING]    Could not find a layer for device $36, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,312] [WARNING]    Could not find a layer for device $37, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,314] [WARNING]    Could not find a layer for device $37, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,316] [WARNING]    Could not find a layer for device $38, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,319] [WARNING]    Could not find a layer for device $38, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,321] [WARNING]    Could not find a layer for device $39, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,323] [WARNING]    Could not find a layer for device $39, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,324] [WARNING]    Could not find a layer for device $40, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,326] [WARNING]    Could not find a layer for device $40, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,329] [WARNING]    Could not find a layer for device $41, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,331] [WARNING]    Could not find a layer for device $41, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,334] [WARNING]    Could not find a layer for device $42, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,337] [WARNING]    Could not find a layer for device $42, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,340] [WARNING]    Could not find a layer for device $43, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,342] [WARNING]    Could not find a layer for device $43, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,344] [WARNING]    Could not find a layer for device $44, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,347] [WARNING]    Could not find a layer for device $44, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,349] [WARNING]    Could not find a layer for device $45, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,351] [WARNING]    Could not find a layer for device $45, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,353] [WARNING]    Could not find a layer for device $46, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,355] [WARNING]    Could not find a layer for device $46, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,357] [WARNING]    Could not find a layer for device $47, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,359] [WARNING]    Could not find a layer for device $47, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,362] [WARNING]    Could not find a layer for device $48, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,365] [WARNING]    Could not find a layer for device $48, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,367] [WARNING]    Could not find a layer for device $49, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,370] [WARNING]    Could not find a layer for device $49, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,372] [WARNING]    Could not find a layer for device $50, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,375] [WARNING]    Could not find a layer for device $50, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,377] [WARNING]    Could not find a layer for device $51, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,380] [WARNING]    Could not find a layer for device $51, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,382] [WARNING]    Could not find a layer for device $52, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,385] [WARNING]    Could not find a layer for device $52, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,387] [WARNING]    Could not find a layer for device $53, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,389] [WARNING]    Could not find a layer for device $53, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,391] [WARNING]    Could not find a layer for device $54, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,393] [WARNING]    Could not find a layer for device $54, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,396] [WARNING]    Could not find a layer for device $55, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,398] [WARNING]    Could not find a layer for device $55, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,400] [WARNING]    Could not find a layer for device $56, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,403] [WARNING]    Could not find a layer for device $56, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,405] [WARNING]    Could not find a layer for device $57, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,407] [WARNING]    Could not find a layer for device $57, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,409] [WARNING]    Could not find a layer for device $58, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,412] [WARNING]    Could not find a layer for device $58, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,415] [WARNING]    Could not find a layer for device $59, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,418] [WARNING]    Could not find a layer for device $59, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,421] [WARNING]    Could not find a layer for device $60, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,423] [WARNING]    Could not find a layer for device $60, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,425] [WARNING]    Could not find a layer for device $61, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,427] [WARNING]    Could not find a layer for device $61, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,429] [WARNING]    Could not find a layer for device $62, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,432] [WARNING]    Could not find a layer for device $62, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,435] [WARNING]    Could not find a layer for device $63, class pfet_03v3, terminal G, net DAC_REF
+[2026-09-10 00:06:24,437] [WARNING]    Could not find a layer for device $63, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,438] [WARNING]    Could not find a layer for device $64, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,440] [WARNING]    Could not find a layer for device $64, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,441] [WARNING]    Could not find a layer for device $65, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,443] [WARNING]    Could not find a layer for device $65, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,445] [WARNING]    Could not find a layer for device $66, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,448] [WARNING]    Could not find a layer for device $66, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,449] [WARNING]    Could not find a layer for device $67, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,452] [WARNING]    Could not find a layer for device $67, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,454] [WARNING]    Could not find a layer for device $68, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,457] [WARNING]    Could not find a layer for device $68, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,459] [WARNING]    Could not find a layer for device $69, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,461] [WARNING]    Could not find a layer for device $69, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,463] [WARNING]    Could not find a layer for device $70, class pfet_03v3, terminal G, net b[2]
+[2026-09-10 00:06:24,465] [WARNING]    Could not find a layer for device $70, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,467] [WARNING]    Could not find a layer for device $71, class pfet_03v3, terminal G, net b[1]
+[2026-09-10 00:06:24,469] [WARNING]    Could not find a layer for device $71, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,471] [WARNING]    Could not find a layer for device $72, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,473] [WARNING]    Could not find a layer for device $72, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,474] [WARNING]    Could not find a layer for device $73, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,477] [WARNING]    Could not find a layer for device $73, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,478] [WARNING]    Could not find a layer for device $74, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,480] [WARNING]    Could not find a layer for device $74, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,481] [WARNING]    Could not find a layer for device $75, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,483] [WARNING]    Could not find a layer for device $75, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,485] [WARNING]    Could not find a layer for device $76, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,487] [WARNING]    Could not find a layer for device $76, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,488] [WARNING]    Could not find a layer for device $77, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,491] [WARNING]    Could not find a layer for device $77, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,493] [WARNING]    Could not find a layer for device $78, class pfet_03v3, terminal G, net b[2]
+[2026-09-10 00:06:24,497] [WARNING]    Could not find a layer for device $78, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,499] [WARNING]    Could not find a layer for device $79, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,501] [WARNING]    Could not find a layer for device $79, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,502] [WARNING]    Could not find a layer for device $80, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,504] [WARNING]    Could not find a layer for device $80, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,506] [WARNING]    Could not find a layer for device $81, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,508] [WARNING]    Could not find a layer for device $81, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,510] [WARNING]    Could not find a layer for device $82, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,513] [WARNING]    Could not find a layer for device $82, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,515] [WARNING]    Could not find a layer for device $83, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,517] [WARNING]    Could not find a layer for device $83, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,520] [WARNING]    Could not find a layer for device $84, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,521] [WARNING]    Could not find a layer for device $84, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,523] [WARNING]    Could not find a layer for device $85, class pfet_03v3, terminal G, net b[2]
+[2026-09-10 00:06:24,525] [WARNING]    Could not find a layer for device $85, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,526] [WARNING]    Could not find a layer for device $86, class pfet_03v3, terminal G, net b[1]
+[2026-09-10 00:06:24,529] [WARNING]    Could not find a layer for device $86, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,531] [WARNING]    Could not find a layer for device $87, class pfet_03v3, terminal G, net b[1]
+[2026-09-10 00:06:24,533] [WARNING]    Could not find a layer for device $87, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,536] [WARNING]    Could not find a layer for device $88, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,538] [WARNING]    Could not find a layer for device $88, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,540] [WARNING]    Could not find a layer for device $89, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,542] [WARNING]    Could not find a layer for device $89, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,544] [WARNING]    Could not find a layer for device $90, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,547] [WARNING]    Could not find a layer for device $90, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,549] [WARNING]    Could not find a layer for device $91, class pfet_03v3, terminal G, net b[4]
+[2026-09-10 00:06:24,551] [WARNING]    Could not find a layer for device $91, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,553] [WARNING]    Could not find a layer for device $92, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,555] [WARNING]    Could not find a layer for device $92, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,557] [WARNING]    Could not find a layer for device $93, class pfet_03v3, terminal G, net b[3]
+[2026-09-10 00:06:24,559] [WARNING]    Could not find a layer for device $93, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,561] [WARNING]    Could not find a layer for device $94, class pfet_03v3, terminal G, net b[2]
+[2026-09-10 00:06:24,564] [WARNING]    Could not find a layer for device $94, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:24,565] [WARNING]    Could not find a layer for device $95, class pfet_03v3, terminal G, net b[0]
+[2026-09-10 00:06:24,568] [WARNING]    Could not find a layer for device $95, class pfet_03v3, terminal B, net VDD
+[2026-09-10 00:06:25,238] [SUBPROCESS]    Device;Net1;Net2;Capacitance [fF];Resistance [Ω]
+[2026-09-10 00:06:25,239] [SUBPROCESS]    C1;$10;$13;1.668;
+[2026-09-10 00:06:25,240] [SUBPROCESS]    C2;$10;$14;0.249;
+[2026-09-10 00:06:25,240] [SUBPROCESS]    C3;$10;$26;3.266;
+[2026-09-10 00:06:25,241] [SUBPROCESS]    C4;$10;$7;0.58;
+[2026-09-10 00:06:25,242] [SUBPROCESS]    C5;$10;b[0];0.003;
+[2026-09-10 00:06:25,242] [SUBPROCESS]    C6;$10;b[2];0.439;
+[2026-09-10 00:06:25,243] [SUBPROCESS]    C7;$10;b[3];2.105;
+[2026-09-10 00:06:25,243] [SUBPROCESS]    C8;$10;b[4];0.012;
+[2026-09-10 00:06:25,244] [SUBPROCESS]    C9;$10;DAC_REF;0.003;
+[2026-09-10 00:06:25,245] [SUBPROCESS]    C10;$10;I_DAC;0.807;
+[2026-09-10 00:06:25,245] [SUBPROCESS]    C11;$10;VDD;7.032;
+[2026-09-10 00:06:25,245] [SUBPROCESS]    C12;$10;VSUBS;7.24;
+[2026-09-10 00:06:25,246] [SUBPROCESS]    C13;$13;$14;2.935;
+[2026-09-10 00:06:25,246] [SUBPROCESS]    C14;$13;$26;0.491;
+[2026-09-10 00:06:25,247] [SUBPROCESS]    C15;$13;$7;0.097;
+[2026-09-10 00:06:25,247] [SUBPROCESS]    C16;$13;b[0];0.117;
+[2026-09-10 00:06:25,247] [SUBPROCESS]    C17;$13;b[1];0.326;
+[2026-09-10 00:06:25,248] [SUBPROCESS]    C18;$13;b[2];0.525;
+[2026-09-10 00:06:25,248] [SUBPROCESS]    C19;$13;I_DAC;0.361;
+[2026-09-10 00:06:25,249] [SUBPROCESS]    C20;$13;VDD;3.839;
+[2026-09-10 00:06:25,249] [SUBPROCESS]    C21;$13;VSUBS;3.202;
+[2026-09-10 00:06:25,250] [SUBPROCESS]    C22;$14;$26;0.351;
+[2026-09-10 00:06:25,250] [SUBPROCESS]    C23;$14;$7;1.178;
+[2026-09-10 00:06:25,250] [SUBPROCESS]    C24;$14;b[0];0.14;
+[2026-09-10 00:06:25,251] [SUBPROCESS]    C25;$14;b[1];0.126;
+[2026-09-10 00:06:25,251] [SUBPROCESS]    C26;$14;I_DAC;0.329;
+[2026-09-10 00:06:25,252] [SUBPROCESS]    C27;$14;VDD;2.038;
+[2026-09-10 00:06:25,252] [SUBPROCESS]    C28;$14;VSUBS;1.832;
+[2026-09-10 00:06:25,253] [SUBPROCESS]    C29;$26;$7;0.33;
+[2026-09-10 00:06:25,253] [SUBPROCESS]    C30;$26;b[3];0.073;
+[2026-09-10 00:06:25,254] [SUBPROCESS]    C31;$26;b[4];3.887;
+[2026-09-10 00:06:25,254] [SUBPROCESS]    C32;$26;DAC_REF;0.062;
+[2026-09-10 00:06:25,254] [SUBPROCESS]    C33;$26;I_DAC;1.326;
+[2026-09-10 00:06:25,255] [SUBPROCESS]    C34;$26;VDD;10.237;
+[2026-09-10 00:06:25,255] [SUBPROCESS]    C35;$26;VSUBS;9.899;
+[2026-09-10 00:06:25,256] [SUBPROCESS]    C36;$7;b[0];0.299;
+[2026-09-10 00:06:25,256] [SUBPROCESS]    C37;$7;I_DAC;0.054;
+[2026-09-10 00:06:25,257] [SUBPROCESS]    C38;$7;VDD;1.178;
+[2026-09-10 00:06:25,257] [SUBPROCESS]    C39;$7;VSUBS;1.73;
+[2026-09-10 00:06:25,258] [SUBPROCESS]    C40;b[0];b[1];0.05;
+[2026-09-10 00:06:25,258] [SUBPROCESS]    C41;b[0];b[2];0.016;
+[2026-09-10 00:06:25,259] [SUBPROCESS]    C42;b[1];b[2];0.062;
+[2026-09-10 00:06:25,259] [SUBPROCESS]    C43;b[1];b[3];0.0;
+[2026-09-10 00:06:25,260] [SUBPROCESS]    C44;b[2];b[3];0.079;
+[2026-09-10 00:06:25,260] [SUBPROCESS]    C45;b[3];b[4];0.252;
+[2026-09-10 00:06:25,261] [SUBPROCESS]    C46;DAC_REF;VDD;1.302;
+[2026-09-10 00:06:25,261] [SUBPROCESS]    C47;DAC_REF;VSUBS;0.57;
+[2026-09-10 00:06:25,261] [SUBPROCESS]    C48;I_DAC;b[0];1.153;
+[2026-09-10 00:06:25,262] [SUBPROCESS]    C49;I_DAC;b[1];0.66;
+[2026-09-10 00:06:25,262] [SUBPROCESS]    C50;I_DAC;b[2];0.794;
+[2026-09-10 00:06:25,263] [SUBPROCESS]    C51;I_DAC;b[3];1.625;
+[2026-09-10 00:06:25,263] [SUBPROCESS]    C52;I_DAC;b[4];3.571;
+[2026-09-10 00:06:25,263] [SUBPROCESS]    C53;I_DAC;VDD;1.187;
+[2026-09-10 00:06:25,264] [SUBPROCESS]    C54;I_DAC;VSUBS;3.647;
+[2026-09-10 00:06:25,264] [SUBPROCESS]    C55;VDD;b[0];2.273;
+[2026-09-10 00:06:25,265] [SUBPROCESS]    C56;VDD;b[1];0.11;
+[2026-09-10 00:06:25,265] [SUBPROCESS]    C57;VDD;b[2];0.137;
+[2026-09-10 00:06:25,265] [SUBPROCESS]    C58;VDD;b[3];0.228;
+[2026-09-10 00:06:25,266] [SUBPROCESS]    C59;VDD;b[4];0.779;
+[2026-09-10 00:06:25,266] [SUBPROCESS]    C60;VDD;VSUBS;49.485;
+[2026-09-10 00:06:25,267] [SUBPROCESS]    C61;VSUBS;b[0];0.693;
+[2026-09-10 00:06:25,267] [SUBPROCESS]    C62;VSUBS;b[1];0.413;
+[2026-09-10 00:06:25,268] [SUBPROCESS]    C63;VSUBS;b[2];0.45;
+[2026-09-10 00:06:25,268] [SUBPROCESS]    C64;VSUBS;b[3];0.952;
+[2026-09-10 00:06:25,269] [SUBPROCESS]    C65;VSUBS;b[4];2.063;
+[2026-09-10 00:06:25,269] [SUBPROCESS]    /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.csv
+[2026-09-10 00:06:25,276] [SUBPROCESS]    Wrote expanded netlist to: /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.spice
+[2026-09-10 00:06:25,280] [INFO]    Copied expanded SPICE netlist to: DAC_CORE_5bit.pex.spice

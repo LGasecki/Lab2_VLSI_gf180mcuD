@@ -1,0 +1,269 @@
+* PEX produced on Fri Sep 11 10:43:09 AM CEST 2026 using /foss/tools/sak/iic-pex.sh with m=3 and s=1 (extresist threshold=10 mOhm, minres=10 mOhm, mindelay=1 ps)
+* NGSPICE file created from DAC_CORE_5bit.ext - technology: gf180mcuD
+
+.subckt DAC_CORE_5bit DAC_REF VDD b[0] b[1] b[2] b[3] b[4] I_DAC
+X0 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X1 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X2 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X3 I_DAC b[2] a_756_1612# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X4 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0.1235n ps=0.5035m w=2u l=5u
+X5 VDD DAC_REF.t16 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X6 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X7 VDD DAC_REF.t9 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X8 VDD DAC_REF.t0 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X9 a_756_1612# b[2] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X10 VDD DAC_REF.t1 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X11 VDD DAC_REF.t42 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X12 VDD DAC_REF.t26 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X13 VDD DAC_REF.t21 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X14 VDD DAC_REF.t11 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X15 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X16 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X17 VDD DAC_REF.t55 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X18 VDD DAC_REF.t54 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X19 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X20 VDD DAC_REF.t44 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X21 VDD DAC_REF.t28 a_1326_1084# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X22 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X23 VDD DAC_REF.t56 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X24 VDD DAC_REF.t39 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X25 VDD DAC_REF.t38 a_756_1612# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X26 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X27 I_DAC b[2] a_756_1612# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X28 VDD DAC_REF.t49 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X29 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X30 VDD DAC_REF.t40 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X31 VDD DAC_REF.t33 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X32 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X33 VDD DAC_REF.t51 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X34 VDD DAC_REF.t29 a_2174_1084# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X35 a_2174_1084# b[0] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X36 VDD DAC_REF.t45 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X37 VDD DAC_REF.t35 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X38 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X39 VDD DAC_REF.t10 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X40 VDD DAC_REF.t2 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X41 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X42 I_DAC b[1] a_1326_1084# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X43 VDD DAC_REF.t23 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X44 VDD DAC_REF.t22 a_756_1612# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X45 VDD DAC_REF.t3 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X46 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X47 a_1326_1084# b[1] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X48 VDD DAC_REF.t12 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X49 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X50 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X51 VDD DAC_REF.t24 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X52 VDD DAC_REF.t5 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X53 VDD DAC_REF.t4 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X54 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X55 VDD DAC_REF.t17 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X56 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X57 I_DAC b[1] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=16.731p ps=94.38u w=0.78u l=0.28u
+X58 VDD DAC_REF.t50 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X59 VDD DAC_REF.t19 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X60 VDD DAC_REF.t13 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X61 VDD DAC_REF.t52 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X62 VDD DAC_REF.t34 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X63 VDD DAC_REF.t47 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X64 VDD DAC_REF.t46 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X65 VDD DAC_REF.t31 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X66 VDD DAC_REF.t30 a_1326_1084# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X67 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X68 VDD DAC_REF.t36 a_756_1612# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X69 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X70 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X71 VDD DAC_REF.t8 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X72 VDD DAC_REF.t48 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X73 VDD DAC_REF.t32 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X74 VDD DAC_REF.t25 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X75 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X76 VDD DAC_REF.t41 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X77 VDD DAC_REF.t6 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X78 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X79 VDD DAC_REF.t53 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X80 VDD DAC_REF.t27 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X81 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X82 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X83 VDD DAC_REF.t43 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X84 VDD DAC_REF.t37 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X85 VDD DAC_REF.t18 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X86 VDD DAC_REF.t7 VDD VDD pfet_03v3 ad=1.3p pd=5.3u as=0 ps=0 w=2u l=5u
+X87 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X88 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X89 VDD DAC_REF.t20 a_756_1612# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X90 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X91 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X92 a_756_1612# b[2] I_DAC VDD pfet_03v3 ad=0.507p pd=2.86u as=0.507p ps=2.86u w=0.78u l=0.28u
+X93 VDD DAC_REF.t15 a_756_3196# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+X94 VDD DAC_REF.t14 a_756_2140# VDD pfet_03v3 ad=1.3p pd=5.3u as=1.3p ps=5.3u w=2u l=5u
+R0 DAC_REF.n4 DAC_REF.t49 41.6131
+R1 DAC_REF.n9 DAC_REF.n8 40.1531
+R2 DAC_REF.n8 DAC_REF.n7 40.1531
+R3 DAC_REF.n7 DAC_REF.n6 40.1531
+R4 DAC_REF.n6 DAC_REF.n5 40.1531
+R5 DAC_REF.n5 DAC_REF.n4 40.1531
+R6 DAC_REF.n12 DAC_REF.n9 39.5861
+R7 DAC_REF.n18 DAC_REF.n17 33.0657
+R8 DAC_REF.n13 DAC_REF.n12 8.04566
+R9 DAC_REF.n17 DAC_REF.n16 8.0005
+R10 DAC_REF.n2 DAC_REF.n1 8.0005
+R11 DAC_REF.n10 DAC_REF.n3 8.0005
+R12 DAC_REF.n19 DAC_REF.n18 8.0005
+R13 DAC_REF.n20 DAC_REF.t8 5.69269
+R14 DAC_REF.t56 DAC_REF.t48 5.0813
+R15 DAC_REF.t48 DAC_REF.t40 5.0813
+R16 DAC_REF.t40 DAC_REF.t32 5.0813
+R17 DAC_REF.t32 DAC_REF.t24 5.0813
+R18 DAC_REF.t24 DAC_REF.t16 5.0813
+R19 DAC_REF.t16 DAC_REF.t7 5.0813
+R20 DAC_REF.t55 DAC_REF.t47 5.0813
+R21 DAC_REF.t47 DAC_REF.t39 5.0813
+R22 DAC_REF.t39 DAC_REF.t31 5.0813
+R23 DAC_REF.t31 DAC_REF.t23 5.0813
+R24 DAC_REF.t23 DAC_REF.t15 5.0813
+R25 DAC_REF.t15 DAC_REF.t6 5.0813
+R26 DAC_REF.t54 DAC_REF.t46 5.0813
+R27 DAC_REF.t46 DAC_REF.t38 5.0813
+R28 DAC_REF.t38 DAC_REF.t30 5.0813
+R29 DAC_REF.t30 DAC_REF.t22 5.0813
+R30 DAC_REF.t22 DAC_REF.t14 5.0813
+R31 DAC_REF.t14 DAC_REF.t5 5.0813
+R32 DAC_REF.t53 DAC_REF.t45 5.0813
+R33 DAC_REF.t45 DAC_REF.t37 5.0813
+R34 DAC_REF.t37 DAC_REF.t29 5.0813
+R35 DAC_REF.t29 DAC_REF.t21 5.0813
+R36 DAC_REF.t21 DAC_REF.t13 5.0813
+R37 DAC_REF.t13 DAC_REF.t4 5.0813
+R38 DAC_REF.t52 DAC_REF.t44 5.0813
+R39 DAC_REF.t44 DAC_REF.t36 5.0813
+R40 DAC_REF.t36 DAC_REF.t28 5.0813
+R41 DAC_REF.t28 DAC_REF.t20 5.0813
+R42 DAC_REF.t20 DAC_REF.t12 5.0813
+R43 DAC_REF.t12 DAC_REF.t3 5.0813
+R44 DAC_REF.t51 DAC_REF.t43 5.0813
+R45 DAC_REF.t43 DAC_REF.t35 5.0813
+R46 DAC_REF.t35 DAC_REF.t27 5.0813
+R47 DAC_REF.t27 DAC_REF.t19 5.0813
+R48 DAC_REF.t19 DAC_REF.t11 5.0813
+R49 DAC_REF.t11 DAC_REF.t2 5.0813
+R50 DAC_REF.t50 DAC_REF.t42 5.0813
+R51 DAC_REF.t42 DAC_REF.t34 5.0813
+R52 DAC_REF.t34 DAC_REF.t26 5.0813
+R53 DAC_REF.t26 DAC_REF.t18 5.0813
+R54 DAC_REF.t18 DAC_REF.t10 5.0813
+R55 DAC_REF.t10 DAC_REF.t1 5.0813
+R56 DAC_REF.t49 DAC_REF.t41 5.0813
+R57 DAC_REF.t41 DAC_REF.t33 5.0813
+R58 DAC_REF.t33 DAC_REF.t25 5.0813
+R59 DAC_REF.t25 DAC_REF.t17 5.0813
+R60 DAC_REF.t17 DAC_REF.t9 5.0813
+R61 DAC_REF.t9 DAC_REF.t0 5.0813
+R62 DAC_REF.n19 DAC_REF.n0 4.5005
+R63 DAC_REF.n16 DAC_REF.n15 4.5005
+R64 DAC_REF.n14 DAC_REF.n2 4.5005
+R65 DAC_REF.n17 DAC_REF.n1 2.41021
+R66 DAC_REF.n10 DAC_REF.n1 2.41021
+R67 DAC_REF.n14 DAC_REF.n13 2.25555
+R68 DAC_REF.n11 DAC_REF.n10 1.84322
+R69 DAC_REF DAC_REF.n20 1.53274
+R70 DAC_REF.n11 DAC_REF.t56 1.4605
+R71 DAC_REF.n9 DAC_REF.t55 1.4605
+R72 DAC_REF.n8 DAC_REF.t54 1.4605
+R73 DAC_REF.n7 DAC_REF.t53 1.4605
+R74 DAC_REF.n6 DAC_REF.t52 1.4605
+R75 DAC_REF.n5 DAC_REF.t51 1.4605
+R76 DAC_REF.n4 DAC_REF.t50 1.4605
+R77 DAC_REF.n12 DAC_REF.n11 0.56749
+R78 DAC_REF.n18 DAC_REF.t8 0.425743
+R79 DAC_REF.n15 DAC_REF.n0 0.174816
+R80 DAC_REF.n20 DAC_REF.n19 0.129523
+R81 DAC_REF.n16 DAC_REF.n2 0.0905
+R82 DAC_REF.n3 DAC_REF.n2 0.0905
+R83 DAC_REF.n13 DAC_REF.n3 0.0454494
+R84 DAC_REF.n15 DAC_REF.n14 0.0219737
+R85 DAC_REF DAC_REF.n0 0.0128158
+C0 VDD a_756_2140# 10.3434f
+C1 I_DAC VDD 3.4636f
+C2 a_1326_1084# DAC_REF 0.93984f
+C3 a_1326_1084# b[0] 0.14668f
+C4 b[4] VDD 4.2701f
+C5 VDD a_756_3196# 14.0289f
+C6 a_756_1612# b[1] 0.34695f
+C7 I_DAC a_756_2140# 0.87536f
+C8 b[4] a_756_2140# 0.01639f
+C9 VDD a_2174_1084# 1.88428f
+C10 a_756_2140# a_756_3196# 3.35035f
+C11 b[4] I_DAC 3.84078f
+C12 I_DAC a_756_3196# 1.45976f
+C13 a_1326_1084# a_756_1612# 3.04761f
+C14 a_1326_1084# b[1] 0.15385f
+C15 b[4] a_756_3196# 4.20268f
+C16 DAC_REF VDD 0.10572p
+C17 b[2] VDD 1.02278f
+C18 VDD b[0] 2.93157f
+C19 a_756_2140# a_2174_1084# 0.69791f
+C20 I_DAC a_2174_1084# 0.06026f
+C21 DAC_REF a_756_2140# 4.97047f
+C22 a_756_3196# a_2174_1084# 0.31455f
+C23 b[2] a_756_2140# 0.46701f
+C24 I_DAC b[2] 0.85146f
+C25 I_DAC b[0] 1.13694f
+C26 b[3] VDD 1.96868f
+C27 DAC_REF a_756_3196# 6.99172f
+C28 VDD a_756_1612# 5.27243f
+C29 VDD b[1] 0.8244f
+C30 b[3] a_756_2140# 2.29936f
+C31 DAC_REF a_2174_1084# 0.96778f
+C32 b[0] a_2174_1084# 0.30623f
+C33 I_DAC b[3] 1.74008f
+C34 a_756_1612# a_756_2140# 1.67571f
+C35 a_1326_1084# VDD 2.97814f
+C36 I_DAC a_756_1612# 0.39369f
+C37 I_DAC b[1] 0.73102f
+C38 b[4] b[3] 0.31433f
+C39 b[3] a_756_3196# 0.08999f
+C40 b[2] b[0] 0.02804f
+C41 a_756_1612# a_756_3196# 0.47341f
+C42 a_1326_1084# a_756_2140# 0.25077f
+C43 a_1326_1084# I_DAC 0.35072f
+C44 a_756_1612# a_2174_1084# 0.09401f
+C45 a_1326_1084# a_756_3196# 0.33468f
+C46 b[2] b[3] 0.13418f
+C47 DAC_REF a_756_1612# 2.22492f
+C48 b[2] a_756_1612# 0.59437f
+C49 b[2] b[1] 0.10471f
+C50 a_756_1612# b[0] 0.12014f
+C51 b[1] b[0] 0.0603f
+C52 a_1326_1084# a_2174_1084# 1.22736f
+C53 DAC_REF w_376_0# 2.39638f
+C54 I_DAC w_376_0# 0.70887f
+C55 VDD w_376_0# 0.35528p
+C56 a_2174_1084# w_376_0# 1.11286f
+C57 a_1326_1084# w_376_0# 1.89767f
+C58 a_756_1612# w_376_0# 3.60827f
+C59 a_756_2140# w_376_0# 7.58748f
+C60 a_756_3196# w_376_0# 15.01942f
+C61 DAC_REF.n0 w_376_0# 0.85132f
+C62 DAC_REF.n1 w_376_0# 0.1416f
+C63 DAC_REF.n2 w_376_0# 0.04674f
+C64 DAC_REF.n3 w_376_0# 0.04674f
+C65 DAC_REF.n4 w_376_0# 1.55185f
+C66 DAC_REF.n5 w_376_0# 1.50279f
+C67 DAC_REF.n6 w_376_0# 1.50279f
+C68 DAC_REF.n7 w_376_0# 1.50279f
+C69 DAC_REF.n8 w_376_0# 1.50279f
+C70 DAC_REF.n9 w_376_0# 1.49408f
+C71 DAC_REF.n10 w_376_0# 0.12494f
+C72 DAC_REF.n11 w_376_0# 0.32352f
+C73 DAC_REF.n12 w_376_0# 0.61736f
+C74 DAC_REF.n13 w_376_0# 0.05113f
+C75 DAC_REF.n14 w_376_0# 0.58306f
+C76 DAC_REF.n15 w_376_0# 0.8931f
+C77 DAC_REF.n16 w_376_0# 0.04674f
+C78 DAC_REF.n17 w_376_0# 0.38297f
+C79 DAC_REF.n18 w_376_0# 0.53392f
+C80 DAC_REF.n19 w_376_0# 0.06345f
+C81 DAC_REF.n20 w_376_0# 0.37965f
+.ends
+

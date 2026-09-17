@@ -1,0 +1,273 @@
+GDS input file passed, running in LVS mode
+Found cell DAC_CORE_5bit in GDS DAC_CORE_5bit.klay.gds (only top cell)
+LVS input schematic not specified (argument --schematic), using dummy schematic
+Cache hit: Reusing cached LVSDB
+output/.kpex_cache/gf180mcuD/foss/designs/DAC_CORE_5bit/DAC_CORE_5bit.klay.gds/DAC_CORE_5bit.lvsdb.gz
+Unable to find info about extracted LVS layer 'comp'
+Unable to find info about extracted LVS layer 'nwell'
+Unable to find info about extracted LVS layer 'contact'
+Unable to find info about extracted LVS layer 'via1'
+(31, 20) -> (psd)
+(34, 0) -> (metal1_con)
+(36, 0) -> (metal2_con)
+Can't find GDS pair for layer M1-Poly
+Can't find GDS pair for layer Via1_con
+Can't find GDS pair for layer Via2_con
+Can't find GDS pair for layer Via3_con
+Can't find GDS pair for layer Via4_ncap
+LVSDB: found 7pins
+Could not find a layer for device $1, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $1, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $2, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $2, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $3, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $3, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $4, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $4, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $5, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $5, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $6, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $6, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $7, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $7, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $8, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $8, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $9, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $9, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $10, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $10, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $11, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $11, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $12, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $12, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $13, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $13, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $14, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $14, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $15, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $15, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $16, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $16, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $17, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $17, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $18, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $18, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $19, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $19, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $20, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $20, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $21, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $21, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $22, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $22, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $23, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $23, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $24, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $24, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $25, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $25, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $26, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $26, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $27, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $27, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $28, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $28, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $29, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $29, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $30, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $30, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $31, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $31, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $32, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $32, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $33, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $33, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $34, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $34, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $35, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $35, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $36, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $36, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $37, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $37, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $38, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $38, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $39, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $39, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $40, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $40, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $41, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $41, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $42, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $42, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $43, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $43, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $44, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $44, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $45, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $45, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $46, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $46, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $47, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $47, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $48, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $48, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $49, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $49, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $50, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $50, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $51, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $51, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $52, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $52, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $53, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $53, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $54, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $54, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $55, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $55, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $56, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $56, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $57, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $57, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $58, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $58, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $59, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $59, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $60, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $60, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $61, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $61, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $62, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $62, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $63, class pfet_03v3, terminal G, net DAC_REF,VDD
+Could not find a layer for device $63, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $64, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $64, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $65, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $65, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $66, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $66, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $67, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $67, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $68, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $68, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $69, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $69, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $70, class pfet_03v3, terminal G, net b[2]
+Could not find a layer for device $70, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $71, class pfet_03v3, terminal G, net b[1]
+Could not find a layer for device $71, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $72, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $72, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $73, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $73, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $74, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $74, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $75, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $75, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $76, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $76, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $77, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $77, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $78, class pfet_03v3, terminal G, net b[2]
+Could not find a layer for device $78, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $79, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $79, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $80, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $80, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $81, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $81, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $82, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $82, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $83, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $83, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $84, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $84, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $85, class pfet_03v3, terminal G, net b[2]
+Could not find a layer for device $85, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $86, class pfet_03v3, terminal G, net b[1]
+Could not find a layer for device $86, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $87, class pfet_03v3, terminal G, net b[1]
+Could not find a layer for device $87, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $88, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $88, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $89, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $89, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $90, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $90, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $91, class pfet_03v3, terminal G, net b[4]
+Could not find a layer for device $91, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $92, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $92, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $93, class pfet_03v3, terminal G, net b[3]
+Could not find a layer for device $93, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $94, class pfet_03v3, terminal G, net b[2]
+Could not find a layer for device $94, class pfet_03v3, terminal B, net DAC_REF,VDD
+Could not find a layer for device $95, class pfet_03v3, terminal G, net b[0]
+Could not find a layer for device $95, class pfet_03v3, terminal B, net DAC_REF,VDD
+Device;Net1;Net2;Capacitance [fF];Resistance [Ω]
+C1;$10;$13;1.666;
+C2;$10;$14;0.249;
+C3;$10;$26;3.266;
+C4;$10;$7;0.58;
+C5;$10;b[0];0.003;
+C6;$10;b[2];0.439;
+C7;$10;b[3];2.105;
+C8;$10;b[4];0.012;
+C9;$10;DAC_REF,VDD;7.524;
+C10;$10;I_DAC;0.807;
+C11;$10;VSUBS;7.025;
+C12;$13;$14;2.935;
+C13;$13;$26;0.491;
+C14;$13;$7;0.097;
+C15;$13;b[0];0.117;
+C16;$13;b[1];0.326;
+C17;$13;b[2];0.525;
+C18;$13;DAC_REF,VDD;4.049;
+C19;$13;I_DAC;0.361;
+C20;$13;VSUBS;3.139;
+C21;$14;$26;0.351;
+C22;$14;$7;1.178;
+C23;$14;b[0];0.14;
+C24;$14;b[1];0.126;
+C25;$14;DAC_REF,VDD;2.214;
+C26;$14;I_DAC;0.329;
+C27;$14;VSUBS;1.745;
+C28;$26;$7;0.33;
+C29;$26;b[3];0.073;
+C30;$26;b[4];3.887;
+C31;$26;DAC_REF,VDD;10.507;
+C32;$26;I_DAC;1.326;
+C33;$26;VSUBS;9.827;
+C34;$7;b[0];0.299;
+C35;$7;DAC_REF,VDD;1.186;
+C36;$7;I_DAC;0.054;
+C37;$7;VSUBS;1.717;
+C38;b[0];b[1];0.05;
+C39;b[0];b[2];0.016;
+C40;b[1];b[2];0.062;
+C41;b[1];b[3];0.0;
+C42;b[2];b[3];0.079;
+C43;b[3];b[4];0.252;
+C44;DAC_REF,VDD;b[0];2.273;
+C45;DAC_REF,VDD;b[1];0.11;
+C46;DAC_REF,VDD;b[2];0.137;
+C47;DAC_REF,VDD;b[3];0.228;
+C48;DAC_REF,VDD;b[4];0.779;
+C49;DAC_REF,VDD;I_DAC;1.187;
+C50;DAC_REF,VDD;VSUBS;50.91;
+C51;I_DAC;b[0];1.153;
+C52;I_DAC;b[1];0.66;
+C53;I_DAC;b[2];0.794;
+C54;I_DAC;b[3];1.625;
+C55;I_DAC;b[4];3.571;
+C56;I_DAC;VSUBS;3.647;
+C57;VSUBS;b[0];0.693;
+C58;VSUBS;b[1];0.413;
+C59;VSUBS;b[2];0.45;
+C60;VSUBS;b[3];0.952;
+C61;VSUBS;b[4];2.063;
+/foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.csv
+Wrote expanded netlist to: /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/DAC_CORE_5bit_k25d_pex_netlist.spice
+Copied expanded SPICE netlist to: DAC_CORE_5bit.pex.spice

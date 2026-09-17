@@ -1,0 +1,36 @@
+
+Magic 8.3 revision 678 - Compiled on Mon Jul 27 03:07:22 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Loading "output/DAC_CORE_5bit__DAC_CORE_5bit/magic_CC/DAC_CORE_5bit_MAGIC_CC_Script.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "$$$CONTEXT_INFO$$$".
+Reading "via_dev".
+Reading "pfet".
+Reading "via_dev$3".
+Reading "N_TAP_CELL".
+Reading "PFET_BASE_CELL_1".
+Reading "PFET_BASE_CELL_2".
+Reading "via_dev$2".
+Reading "DAC_CORE_5bit".
+Error while reading cell "DAC_CORE_5bit" (byte position 15360): Unknown layer/datatype in path, layer=200 type=0
+Extracting DAC_CORE_5bit into /foss/designs/DAC_CORE_5bit/output/DAC_CORE_5bit__DAC_CORE_5bit/magic_CC/DAC_CORE_5bit.ext:
+Processing DAC_CORE_5bit
+DAC_CORE_5bit: 33 warnings
+Total of 33 warnings.
+exttospice finished.

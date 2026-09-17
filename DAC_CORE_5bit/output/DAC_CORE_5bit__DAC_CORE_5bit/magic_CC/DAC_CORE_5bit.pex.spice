@@ -1,0 +1,167 @@
+* NGSPICE file created from DAC_CORE_5bit.ext - technology: gf180mcuD
+
+.option scale=5n
+
+.subckt DAC_CORE_5bit b[3] b[2] b[0] b[1] b[4] I_DAC DAC_REF VDD
+X0 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X1 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X2 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X3 I_DAC b[2] a_756_1612# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X4 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=4.94u ps=0.1007 w=400 l=1000
+X5 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X6 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X7 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X8 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X9 a_756_1612# b[2] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X10 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X11 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X12 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X13 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X14 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X15 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X16 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X17 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X18 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X19 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X20 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X21 VDD DAC_REF a_1326_1084# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X22 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X23 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X24 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X25 VDD DAC_REF a_756_1612# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X26 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X27 I_DAC b[2] a_756_1612# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X28 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X29 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X30 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X31 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X32 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X33 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X34 VDD DAC_REF a_2174_1084# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X35 a_2174_1084# b[0] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X36 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X37 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X38 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X39 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X40 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X41 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X42 I_DAC b[1] a_1326_1084# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X43 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X44 VDD DAC_REF a_756_1612# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X45 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X46 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X47 a_1326_1084# b[1] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X48 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X49 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X50 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X51 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X52 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X53 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X54 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X55 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X56 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X57 I_DAC b[1] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=0.66924u ps=0.01888 w=156 l=56
+X58 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X59 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X60 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X61 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X62 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X63 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X64 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X65 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X66 VDD DAC_REF a_1326_1084# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X67 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X68 VDD DAC_REF a_756_1612# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X69 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X70 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X71 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X72 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X73 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X74 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X75 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X76 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X77 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X78 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X79 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X80 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X81 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X82 a_756_2140# b[3] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X83 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X84 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X85 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X86 VDD DAC_REF VDD VDD pfet_03v3 ad=52n pd=1.06m as=0 ps=0 w=400 l=1000
+X87 I_DAC b[4] a_756_3196# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X88 I_DAC b[3] a_756_2140# VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X89 VDD DAC_REF a_756_1612# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X90 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X91 a_756_3196# b[4] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X92 a_756_1612# b[2] I_DAC VDD pfet_03v3 ad=20.28n pd=0.572m as=20.28n ps=0.572m w=156 l=56
+X93 VDD DAC_REF a_756_3196# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+X94 VDD DAC_REF a_756_2140# VDD pfet_03v3 ad=52n pd=1.06m as=52n ps=1.06m w=400 l=1000
+C0 b[4] b[3] 0.31433f
+C1 VDD b[0] 2.92727f
+C2 a_756_3196# I_DAC 1.5147f
+C3 a_756_1612# a_1326_1084# 3.04849f
+C4 b[2] I_DAC 1.11962f
+C5 b[0] a_756_1612# 0.12014f
+C6 b[1] I_DAC 0.93235f
+C7 a_756_3196# b[3] 0.08999f
+C8 a_756_3196# a_1326_1084# 0.33641f
+C9 a_756_2140# I_DAC 0.91535f
+C10 b[2] b[3] 0.13418f
+C11 DAC_REF a_1326_1084# 1.16095f
+C12 b[1] a_1326_1084# 0.15382f
+C13 b[2] b[0] 0.02804f
+C14 a_2174_1084# I_DAC 0.06277f
+C15 a_756_2140# b[3] 2.29912f
+C16 VDD b[4] 4.22615f
+C17 a_756_2140# a_1326_1084# 0.2421f
+C18 b[1] b[0] 0.0603f
+C19 VDD a_756_1612# 4.4914f
+C20 a_2174_1084# a_1326_1084# 1.22736f
+C21 a_2174_1084# b[0] 0.30623f
+C22 a_756_3196# VDD 12.7725f
+C23 b[2] VDD 1.01248f
+C24 a_756_3196# b[4] 4.20244f
+C25 VDD DAC_REF 93.4365f
+C26 b[1] VDD 0.81641f
+C27 VDD a_756_2140# 8.54591f
+C28 a_756_3196# a_756_1612# 0.47686f
+C29 b[2] a_756_1612# 0.59425f
+C30 b[4] a_756_2140# 0.01639f
+C31 a_2174_1084# VDD 1.43538f
+C32 DAC_REF a_756_1612# 2.48016f
+C33 b[1] a_756_1612# 0.34695f
+C34 a_756_2140# a_756_1612# 1.68254f
+C35 I_DAC b[3] 2.27907f
+C36 a_756_3196# DAC_REF 7.43207f
+C37 I_DAC a_1326_1084# 0.36311f
+C38 a_2174_1084# a_756_1612# 0.09453f
+C39 b[2] b[1] 0.10471f
+C40 a_756_3196# a_756_2140# 3.35543f
+C41 b[0] I_DAC 1.2146f
+C42 b[2] a_756_2140# 0.46701f
+C43 a_2174_1084# a_756_3196# 0.31556f
+C44 a_756_2140# DAC_REF 5.58508f
+C45 b[0] a_1326_1084# 0.14655f
+C46 a_2174_1084# DAC_REF 1.2f
+C47 a_2174_1084# a_756_2140# 0.58046f
+C48 VDD I_DAC 3.46224f
+C49 b[4] I_DAC 4.86012f
+C50 VDD b[3] 1.94608f
+C51 VDD a_1326_1084# 2.41813f
+C52 I_DAC a_756_1612# 0.412f
+C53 DAC_REF VSUBS 1.57134f
+C54 b[0] VSUBS 0.06389f
+C55 b[1] VSUBS 0.03737f
+C56 b[2] VSUBS 0.02604f
+C57 b[3] VSUBS 0.12309f
+C58 I_DAC VSUBS 0.33696f
+C59 b[4] VSUBS 0.49205f
+C60 VDD VSUBS 0.27465p
+C61 a_2174_1084# VSUBS 0.20715f ; **FLOATING
+C62 a_1326_1084# VSUBS 0.12009f ; **FLOATING
+C63 a_756_1612# VSUBS 0.07745f ; **FLOATING
+C64 a_756_2140# VSUBS 0.48292f ; **FLOATING
+C65 a_756_3196# VSUBS 0.7686f ; **FLOATING
+.ends
